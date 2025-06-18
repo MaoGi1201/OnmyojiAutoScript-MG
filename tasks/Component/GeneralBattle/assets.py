@@ -69,10 +69,12 @@ class GeneralBattleAssets:
 	# Image Rule Assets
 	# 奖励，就是那个魂 
 	I_REWARD = RuleImage(roi_front=(547,518,172,96), roi_back=(547,518,172,96), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_reward.png")
+	# 活动掉落 
+	I_ACTIVITY_ITEMS = RuleImage(roi_front=(609,252,62,58), roi_back=(609,252,62,58), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_activity_items.png")
 	# 预设的小图标 
-	I_PRESET = RuleImage(roi_front=(32,650,47,45), roi_back=(32,650,47,45), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_preset.png")
+	I_PRESET = RuleImage(roi_front=(37,660,46,46), roi_back=(37,660,46,46), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_preset.png")
 	# 准备 
-	I_PREPARE_HIGHLIGHT = RuleImage(roi_front=(1128,536,100,100), roi_back=(1110,500,169,200), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_prepare_highlight.png")
+	I_PREPARE_HIGHLIGHT = RuleImage(roi_front=(1125,536,100,100), roi_back=(1110,500,169,200), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_prepare_highlight.png")
 	# 战斗胜利 
 	I_WIN = RuleImage(roi_front=(385,47,100,100), roi_back=(296,33,414,224), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_win.png")
 	# 准备但是界面还未加载这个时候是黑色的 
@@ -82,7 +84,7 @@ class GeneralBattleAssets:
 	# 确认预设的队伍 
 	I_PRESET_ENSURE = RuleImage(roi_front=(352,643,141,50), roi_back=(305,625,236,83), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_preset_ensure.png")
 	# 选择buff 
-	I_BUFF = RuleImage(roi_front=(115,657,42,50), roi_back=(106,641,67,77), threshold=0.7, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_buff.png")
+	I_BUFF = RuleImage(roi_front=(117,657,42,50), roi_back=(106,641,67,77), threshold=0.7, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_buff.png")
 	# 觉醒加成 
 	I_BUFF_AWAKEN = RuleImage(roi_front=(373,126,383,53), roi_back=(373,126,383,53), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_buff_awaken.png")
 	# 御魂加成 
@@ -102,7 +104,7 @@ class GeneralBattleAssets:
 	# 左上角的退出 
 	I_EXIT = RuleImage(roi_front=(14,12,43,41), roi_back=(14,12,43,41), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_exit.png")
 	# 退出确认 
-	I_EXIT_ENSURE = RuleImage(roi_front=(674,388,134,66), roi_back=(674,388,134,66), threshold=0.6, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_exit_ensure.png")
+	I_EXIT_ENSURE = RuleImage(roi_front=(674,390,134,66), roi_back=(674,390,134,66), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_exit_ensure.png")
 	# 左上角好友图标 
 	I_FRIENDS = RuleImage(roi_front=(89,14,36,36), roi_back=(89,14,36,36), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_friends.png")
 	# 结算时左下角统计图标 
@@ -110,7 +112,7 @@ class GeneralBattleAssets:
 	# 结算金币 
 	I_REWARD_GOLD = RuleImage(roi_front=(943,312,97,69), roi_back=(943,312,97,69), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_reward_gold.png")
 	# 针对封魔的特殊 
-	I_DE_WIN = RuleImage(roi_front=(472,49,100,100), roi_back=(239,36,399,133), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_de_win.png")
+	I_DE_WIN = RuleImage(roi_front=(502,50,100,100), roi_back=(239,36,399,133), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_de_win.png")
 	# description 
 	I_PRESENT_LESS_THAN_5 = RuleImage(roi_front=(222,648,418,43), roi_back=(222,648,418,43), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_present_less_than_5.png")
 	# 封魔的金币 

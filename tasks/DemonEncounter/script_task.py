@@ -406,6 +406,9 @@ class ScriptTask(GameUi, GeneralBattle, DemonEncounterAssets, SwitchSoul):
                     break
 
     def _mail(self, target_click):
+
+        pass
+        """
         # 答题
         def answer():
             click_match = {
@@ -470,6 +473,7 @@ class ScriptTask(GameUi, GeneralBattle, DemonEncounterAssets, SwitchSoul):
                 # 一直点击
                 self.click(answer_click, interval=1)
             time.sleep(0.5)
+        """
 
     def _battle(self, target_click):
         config = self.con

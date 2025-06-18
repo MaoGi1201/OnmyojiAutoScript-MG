@@ -64,7 +64,7 @@ class AreaBossAssets:
 	# 蓝色的返回 
 	I_BACK_BLUE = RuleImage(roi_front=(51,30,51,52), roi_back=(4,1,128,110), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/res_back_blue.png")
 	# 右上边选中鬼王的 
-	I_FILTER = RuleImage(roi_front=(1116,33,35,31), roi_back=(1076,19,98,78), threshold=0.7, method="Template matching", file="./tasks/AreaBoss/res/res_filter.png")
+	I_FILTER = RuleImage(roi_front=(1107,27,42,40), roi_back=(1076,19,98,78), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/res_filter.png")
 	# 除悬赏外 选中第一个鬼王的 
 	I_BATTLE_1 = RuleImage(roi_front=(1083,235,65,54), roi_back=(1083,235,65,54), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/res_battle_1.png")
 	# 除悬赏外 选中第二个鬼王的 
@@ -76,15 +76,15 @@ class AreaBossAssets:
 	# 跟buff冲突弃用 
 	I_CLOSE_RED = RuleImage(roi_front=(1190,24,37,38), roi_back=(1190,24,37,38), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/res_close_red.png")
 	# 红色关闭 
-	I_AB_CLOSE_RED = RuleImage(roi_front=(1194,24,36,38), roi_back=(1194,24,34,36), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/res_ab_close_red.png")
+	I_AB_CLOSE_RED = RuleImage(roi_front=(1190,22,36,38), roi_back=(1190,22,36,38), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/res_ab_close_red.png")
 	# 筛选中 选中悬赏标识 
 	I_AB_FILTER_TITLE_REWARD = RuleImage(roi_front=(920,110,190,70), roi_back=(920,110,190,70), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/ab_filter_title_reward.png")
 	# 筛选中 选中热门标识 
-	I_AB_FILTER_TITLE_FAMOUS = RuleImage(roi_front=(920,110,190,70), roi_back=(920,110,190,70), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/ab_filter_title_famous.png")
+	I_AB_FILTER_TITLE_FAMOUS = RuleImage(roi_front=(954,124,124,38), roi_back=(920,110,190,70), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/ab_filter_title_famous.png")
 	# 筛选中 选中收藏标识 
 	I_AB_FILTER_TITLE_COLLECTION = RuleImage(roi_front=(920,110,190,70), roi_back=(920,110,190,70), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/ab_filter_title_collection.png")
 	# 筛选界面打开标识 
-	I_AB_FILTER_OPENED = RuleImage(roi_front=(840,110,130,70), roi_back=(840,110,130,70), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/ab_filter_opened.png")
+	I_AB_FILTER_OPENED = RuleImage(roi_front=(849,129,74,30), roi_back=(849,129,74,30), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/ab_filter_opened.png")
 	# 极地鬼标识 出现此图片表明 是 极地鬼 
 	I_AB_DIFFICULTY_JI = RuleImage(roi_front=(260,100,70,70), roi_back=(260,100,70,70), threshold=0.8, method="Template matching", file="./tasks/AreaBoss/res/ab_difficulty_ji.png")
 	# 极地鬼标识 出现此图片表明 是 普通地鬼 

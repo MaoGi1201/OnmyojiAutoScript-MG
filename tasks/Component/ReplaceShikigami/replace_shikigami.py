@@ -8,6 +8,7 @@ from module.logger import logger
 from tasks.base_task import BaseTask
 from tasks.Utils.config_enum import ShikigamiClass
 from tasks.Component.ReplaceShikigami.assets import ReplaceShikigamiAssets
+from toolkit.Lib.asyncio import sleep
 
 
 class ReplaceShikigami(BaseTask, ReplaceShikigamiAssets):
@@ -87,18 +88,18 @@ class ReplaceShikigami(BaseTask, ReplaceShikigamiAssets):
         click_match = _click_match[shikigami_order]
         while 1:
             self.screenshot()
-
             if not self.appear(stop_image):
                 break
-
-            if self.appear_then_click(self.I_U_CONFIRM_SMALL, interval=0.5):
+            if self.appear_then_click(self.I_U_CONFIRM_SMALL, interval=2):
                 continue
 
             if self.click(click_match, interval=1.5):
+                sleep(1.0)  # 点击后等待可能的确认界面出现
                 continue
             if self.click(_click_match[6], interval=4.5):
                 # 有的时候第七个格子被占用到寄养上去了
                 # 导致一直无法选上
+                sleep(1.0)  # 点击后等待可能的确认界面出现
                 continue
             if self.appear_then_click(self.I_U_CIRCLE_ALTERNATE, interval=2.5):
                 self.appear_then_click(self.I_U_CONFIRM_ALTERNATE, interval=1.5)

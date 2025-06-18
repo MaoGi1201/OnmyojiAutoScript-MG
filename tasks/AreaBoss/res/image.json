@@ -11,7 +11,7 @@
   {
     "itemName": "area_boss",
     "imageName": "res_area_boss.png",
-    "roiFront": "639,636,65,68",
+    "roiFront": "639,636,66,68",
     "roiBack": "606,619,145,100",
     "method": "Template matching",
     "threshold": 0.8,
@@ -29,7 +29,7 @@
   {
     "itemName": "filter",
     "imageName": "res_filter.png",
-    "roiFront": "1116,33,35,31",
+    "roiFront": "1107,27,42,40",
     "roiBack": "1076,19,98,78",
     "method": "Template matching",
     "threshold": 0.8,
@@ -65,7 +65,7 @@
   {
     "itemName": "fire",
     "imageName": "res_fire.png",
-    "roiFront": "1109,490,100,73",
+    "roiFront": "1109,490,100,72",
     "roiBack": "1075,463,150,158",
     "method": "Template matching",
     "threshold": 0.8,
@@ -83,8 +83,8 @@
   {
     "itemName": "ab_close_red",
     "imageName": "res_ab_close_red.png",
-    "roiFront": "1194,24,38,37",
-    "roiBack": "1194,24,38,37",
+    "roiFront": "1190,22,36,38",
+    "roiBack": "1190,22,36,38",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "红色关闭"
@@ -101,7 +101,7 @@
   {
     "itemName": "ab_filter_title_famous",
     "imageName": "ab_filter_title_famous.png",
-    "roiFront": "920,110,190,70",
+    "roiFront": "954,124,124,38",
     "roiBack": "920,110,190,70",
     "method": "Template matching",
     "threshold": 0.8,
@@ -119,8 +119,8 @@
   {
     "itemName": "ab_filter_opened",
     "imageName": "ab_filter_opened.png",
-    "roiFront": "840,110,130,70",
-    "roiBack": "840,110,130,70",
+    "roiFront": "849,129,74,30",
+    "roiBack": "849,129,74,30",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "筛选界面打开标识"

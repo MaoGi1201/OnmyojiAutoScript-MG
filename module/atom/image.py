@@ -311,21 +311,16 @@ if __name__ == "__main__":
     from dev_tools.assets_test import detect_image
 
     IMAGE_FILE = r"C:\Users\MG\Desktop\4.png"
-    from tasks.Hyakkiyakou.assets import HyakkiyakouAssets
-    jade = HyakkiyakouAssets.I_HFREEZE
-    jade.method = 'Template matching'
-    detect_image(IMAGE_FILE, jade)
-    print(jade.roi_front)
-    print(jade.roi_back)
-    #sign = RealmRaidAssets.I_MEDAL_0
-    #sign.method = 'Template matching'
-    #detect_image(IMAGE_FILE, sign)
-    #print(sign.roi_front)
-    IMAGE_FILE = r"C:\Users\MG\Desktop\4.png"
-    from tasks.GameUi.assets import GameUiAssets
-    jade = GameUiAssets.I_CHECK_KYAKKIYAKOU
-    jade.method = 'Template matching'
-    detect_image(IMAGE_FILE, jade)
-    print(jade.roi_front)
-    print(jade.roi_back)
+    #from tasks.Component.ReplaceShikigami.assets import ReplaceShikigamiAssets
+    #jade = ReplaceShikigamiAssets.I_U_CONFIRM_ALTERNATE
+    #jade.method = 'Template matching'
+    #detect_image(IMAGE_FILE, jade)
+    #print(jade.roi_front)
+    #print(jade.roi_back)
 
+    from tasks.Component.GeneralBattle.assets import GeneralBattleAssets
+    jade = GeneralBattleAssets.I_WIN
+    jade.method = 'Template matching'
+    detect_image(IMAGE_FILE, jade)
+    print(jade.roi_front)
+    print(jade.roi_back)

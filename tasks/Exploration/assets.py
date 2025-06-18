@@ -76,9 +76,9 @@ class ExplorationAssets:
 	# 探索按钮 
 	I_E_EXPLORATION_CLICK = RuleImage(roi_front=(898,518,96,42), roi_back=(898,518,96,42), threshold=0.7, method="Template matching", file="./tasks/Exploration/res/res_e_exploration_click.png")
 	# 自动轮换开着 
-	I_E_AUTO_ROTATE_ON = RuleImage(roi_front=(108,648,152,44), roi_back=(108,648,152,44), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_auto_rotate_on.png")
+	I_E_AUTO_ROTATE_ON = RuleImage(roi_front=(108,647,152,44), roi_back=(108,647,152,44), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_auto_rotate_on.png")
 	# 自动轮换关闭 
-	I_E_AUTO_ROTATE_OFF = RuleImage(roi_front=(105,650,150,46), roi_back=(105,650,150,46), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_auto_rotate_off.png")
+	I_E_AUTO_ROTATE_OFF = RuleImage(roi_front=(105,649,150,46), roi_back=(105,649,150,46), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_auto_rotate_off.png")
 	# 成功打开设置 
 	I_E_OPEN_SETTINGS = RuleImage(roi_front=(468,112,170,50), roi_back=(468,112,170,50), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_open_settings.png")
 	# 选择式神稀有度 
@@ -90,9 +90,9 @@ class ExplorationAssets:
 	# 已候补出战的狗粮 
 	I_E_RATATE_EXSIT = RuleImage(roi_front=(108,580,995,32), roi_back=(108,580,995,32), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_ratate_exsit.png")
 	# 确定按钮 
-	I_E_SURE_BUTTON = RuleImage(roi_front=(1139,429,44,38), roi_back=(1139,428,44,38), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_sure_button.png")
+	I_E_SURE_BUTTON = RuleImage(roi_front=(1139,428,44,38), roi_back=(1139,428,44,38), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_sure_button.png")
 	# 设置按钮 
-	I_E_SETTINGS_BUTTON = RuleImage(roi_front=(37,692,54,28), roi_back=(37,692,54,28), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_settings_button.png")
+	I_E_SETTINGS_BUTTON = RuleImage(roi_front=(36,692,54,28), roi_back=(36,692,54,28), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_e_settings_button.png")
 	# 普通怪 
 	I_NORMAL_BATTLE_BUTTON = RuleImage(roi_front=(636,263,42,39), roi_back=(0,0,1279,719), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_normal_battle_button.png")
 	# boss 
@@ -104,7 +104,7 @@ class ExplorationAssets:
 	# description 
 	I_BATTLE_START = RuleImage(roi_front=(555,688,39,27.5), roi_back=(221,677,561,41), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_battle_start.png")
 	# description 
-	I_GET_REWARD = RuleImage(roi_front=(464,231,338,44), roi_back=(464,231,338,44), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_get_reward.png")
+	I_GET_REWARD = RuleImage(roi_front=(476,224,338,44), roi_back=(476,224,338,44), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_get_reward.png")
 	# description 
 	I_RED_CLOSE = RuleImage(roi_front=(1025,127,41,42), roi_back=(1025,127,41,42), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_red_close.png")
 	# description 
@@ -116,7 +116,7 @@ class ExplorationAssets:
 	# 队伍的表情标志 
 	I_TEAM_EMOJI = RuleImage(roi_front=(36,437,44,46), roi_back=(4,407,100,100), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_team_emoji.png")
 	# 组队按钮 
-	I_EXP_CREATE_TEAM = RuleImage(roi_front=(586,508,130,60), roi_back=(543,490,192,100), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_exp_create_team.png")
+	I_EXP_CREATE_TEAM = RuleImage(roi_front=(584,508,132,60), roi_back=(543,490,192,100), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_exp_create_team.png")
 	# 创建确认 
 	I_EXP_CREATE_ENSURE = RuleImage(roi_front=(528,484,222,60), roi_back=(516,475,244,85), threshold=0.8, method="Template matching", file="./tasks/Exploration/res/res_exp_create_ensure.png")
 
