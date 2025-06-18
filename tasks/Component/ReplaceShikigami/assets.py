@@ -78,7 +78,7 @@ class ReplaceShikigamiAssets:
 	# description 
 	I_RS_RECORDS_SHIKI = RuleImage(roi_front=(1146,546,49,43), roi_back=(1146,546,49,43), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_records_shiki.png")
 	# 检测到已经满级了 
-	I_RS_LEVEL_MAX = RuleImage(roi_front=(487,239,42,24), roi_back=(52,238,1118,37), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_level_max.png")
+	I_RS_LEVEL_MAX = RuleImage(roi_front=(45,239,42,24), roi_back=(52,238,1118,37), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_level_max.png")
 
 
 	# Image Rule Assets
