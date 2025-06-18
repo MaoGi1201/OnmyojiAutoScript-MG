@@ -20,8 +20,8 @@
   {
     "itemName": "de_boss",
     "imageName": "demon_de_boss.png",
-    "roiFront": "1001,645,45,45",
-    "roiBack": "1001,645,45,45",
+    "roiFront": "998,644,45,45",
+    "roiBack": "998,644,45,45",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "点击首领"
@@ -29,8 +29,8 @@
   {
     "itemName": "de_boss_best",
     "imageName": "demon_de_boss_best.png",
-    "roiFront": "900,644,45,50",
-    "roiBack": "900,644,45,50",
+    "roiFront": "898,643,45,50",
+    "roiBack": "898,643,45,50",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "点击封魔极"
