@@ -105,7 +105,7 @@ class ScriptTask(GameUi, BaseActivity, SwitchSoul, ActivityShikigamiAssets):
 
             # 随机休息
             if config.general_climb.random_sleep:
-                random_sleep()
+                random_sleep(probability=0.2)
             # 点击战斗
             logger.info("Click battle")
             while 1:
@@ -148,8 +148,11 @@ class ScriptTask(GameUi, BaseActivity, SwitchSoul, ActivityShikigamiAssets):
                 break
             if self.appear_then_click(self.I_SHI, interval=1):
                 continue
-
+            if self.ocr_appear_click(self.O_ENTRY_ACTIVITY, interval=1):
+                continue
             if self.appear_then_click(self.I_BATTLE, interval=1):
+                continue
+            if self.appear_then_click(self.I_BATTLE_1, interval=1):
                 continue
 
     def main_home(self) -> bool:
@@ -167,6 +170,8 @@ class ScriptTask(GameUi, BaseActivity, SwitchSoul, ActivityShikigamiAssets):
             if self.appear_then_click(self.I_UI_BACK_YELLOW, interval=2):
                 continue
             if self.appear_then_click(self.I_BACK_GREEN, interval=2):
+                continue
+            if self.appear_then_click(self.I_EXIT, interval=2.2, threshold=0.6):
                 continue
 
     def check_ap_remain(self, current_ap: ApMode) -> bool:
