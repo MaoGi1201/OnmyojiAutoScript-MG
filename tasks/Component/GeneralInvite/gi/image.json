@@ -146,8 +146,8 @@
   {
     "itemName": "back_yellow",
     "imageName": "gi_back_yellow.png",
-    "roiFront": "19,13,58,55",
-    "roiBack": "19,13,58,55",
+    "roiFront": "18,15,58,55",
+    "roiBack": "18,15,58,55",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "左上角退出"

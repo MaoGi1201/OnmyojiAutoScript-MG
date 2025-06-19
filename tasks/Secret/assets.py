@@ -27,7 +27,7 @@ class SecretAssets:
 	# 最后一个的勾玉 
 	I_SE_JADE_LAST = RuleImage(roi_front=(301,561,38,40), roi_back=(301,561,38,40), threshold=0.8, method="Template matching", file="./tasks/Secret/se/se_se_jade_last.png")
 	# 战斗赢 
-	I_SE_BATTLE_WIN = RuleImage(roi_front=(461,59,100,100), roi_back=(436,62,100,100), threshold=0.8, method="Template matching", file="./tasks/Secret/se/se_se_battle_win.png")
+	I_SE_BATTLE_WIN = RuleImage(roi_front=(461,59,100,100), roi_back=(461,59,100,100), threshold=0.8, method="Template matching", file="./tasks/Secret/se/se_se_battle_win.png")
 	# 已经完成可以退出 
 	I_SE_FINISHED_1 = RuleImage(roi_front=(439,544,40,43), roi_back=(439,544,40,43), threshold=0.8, method="Template matching", file="./tasks/Secret/se/se_se_finished_1.png")
 
