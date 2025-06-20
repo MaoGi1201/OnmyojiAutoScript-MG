@@ -150,7 +150,7 @@
     "roiBack": "577,15,127,36",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "孔雀暗域"
   },
   {
     "itemName": "leopard_area",

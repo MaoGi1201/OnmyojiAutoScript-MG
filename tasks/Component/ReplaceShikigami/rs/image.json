@@ -128,8 +128,8 @@
   {
     "itemName": "rs_level_max",
     "imageName": "rs_rs_level_max.png",
-    "roiFront": "45,239,42,24",
-    "roiBack": "52,238,1118,37",
+    "roiFront": "487,239,42,24",
+    "roiBack": "45,239,1118,37",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "检测到已经满级了"
