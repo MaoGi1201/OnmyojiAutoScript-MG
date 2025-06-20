@@ -11,8 +11,8 @@
   {
     "itemName": "ms_share",
     "imageName": "ms_ms_share.png",
-    "roiFront": "24,571,100,100",
-    "roiBack": "24,571,100,100",
+    "roiFront": "21,569,100,100",
+    "roiBack": "21,569,100,100",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "点击分享"
@@ -38,8 +38,8 @@
   {
     "itemName": "invite_ensure",
     "imageName": "ms_invite_ensure.png",
-    "roiFront": "711,545,127,60",
-    "roiBack": "711,545,127,60",
+    "roiFront": "707,543,130,60",
+    "roiBack": "707,543,130,60",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "分享"

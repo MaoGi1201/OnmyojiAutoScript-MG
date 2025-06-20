@@ -14,13 +14,13 @@ class MysteryShopAssets:
 	# 进入 
 	I_ME_ENTER = RuleImage(roi_front=(52,494,59,44), roi_back=(52,494,59,44), threshold=0.8, method="Template matching", file="./tasks/MysteryShop/ms/ms_me_enter.png")
 	# 点击分享 
-	I_MS_SHARE = RuleImage(roi_front=(24,571,100,100), roi_back=(24,571,100,100), threshold=0.8, method="Template matching", file="./tasks/MysteryShop/ms/ms_ms_share.png")
+	I_MS_SHARE = RuleImage(roi_front=(21,569,100,100), roi_back=(21,569,100,100), threshold=0.8, method="Template matching", file="./tasks/MysteryShop/ms/ms_ms_share.png")
 	# 上一个 
 	I_MS_BEFORE = RuleImage(roi_front=(25,317,39,52), roi_back=(25,317,39,52), threshold=0.8, method="Template matching", file="./tasks/MysteryShop/ms/ms_ms_before.png")
 	# 下一个 
 	I_MS_NEXT = RuleImage(roi_front=(1226,315,36,53), roi_back=(1226,315,36,53), threshold=0.8, method="Template matching", file="./tasks/MysteryShop/ms/ms_ms_next.png")
 	# 分享 
-	I_INVITE_ENSURE = RuleImage(roi_front=(711,545,127,60), roi_back=(711,545,127,60), threshold=0.8, method="Template matching", file="./tasks/MysteryShop/ms/ms_invite_ensure.png")
+	I_INVITE_ENSURE = RuleImage(roi_front=(707,543,130,60), roi_back=(707,543,130,60), threshold=0.8, method="Template matching", file="./tasks/MysteryShop/ms/ms_invite_ensure.png")
 
 
 	# Ocr Rule Assets

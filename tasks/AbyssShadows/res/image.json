@@ -92,8 +92,8 @@
   {
     "itemName": "abyss_map",
     "imageName": "res_abyss_map.png",
-    "roiFront": "306,147,170,48",
-    "roiBack": "306,147,170,48",
+    "roiFront": "310,146,170,48",
+    "roiBack": "310,146,170,48",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "战报页面"
@@ -150,7 +150,7 @@
     "roiBack": "577,15,127,36",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "孔雀暗域"
   },
   {
     "itemName": "leopard_area",
@@ -200,8 +200,8 @@
   {
     "itemName": "equipping",
     "imageName": "res_equipping.png",
-    "roiFront": "1126,545,100,84",
-    "roiBack": "1126,545,100,84",
+    "roiFront": "1126,544,100,100",
+    "roiBack": "1126,544,100,100",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "准备"

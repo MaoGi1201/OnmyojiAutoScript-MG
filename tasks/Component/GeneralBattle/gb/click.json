@@ -67,32 +67,32 @@
   },
   {
     "itemName": "green_left_1",
-    "roiFront": "128,433,90,150",
-    "roiBack": "128,433,90,150",
+    "roiFront": "220,458,58,85",
+    "roiBack": "220,458,58,85",
     "description": "从左开始第一个绿标"
   },
   {
     "itemName": "green_left_2",
-    "roiFront": "371,385,81,145",
-    "roiBack": "371,385,81,145",
+    "roiFront": "416,364,37,59",
+    "roiBack": "416,364,37,59",
     "description": "从左开始第二个绿标"
   },
   {
     "itemName": "green_left_3",
-    "roiFront": "586,328,100,76",
-    "roiBack": "586,328,100,76",
+    "roiFront": "605,369,52,80",
+    "roiBack": "605,369,52,80",
     "description": "从左开始第三个绿标"
   },
   {
     "itemName": "green_left_4",
-    "roiFront": "817,379,77,133",
-    "roiBack": "817,379,77,133",
+    "roiFront": "795,384,53,81",
+    "roiBack": "795,384,53,81",
     "description": "从左开始第四个绿标"
   },
   {
     "itemName": "green_left_5",
-    "roiFront": "1059,416,85,145",
-    "roiBack": "1059,416,85,145",
+    "roiFront": "1001,421,61,87",
+    "roiBack": "1001,421,61,87",
     "description": "从左开始第五个绿标"
   },
   {

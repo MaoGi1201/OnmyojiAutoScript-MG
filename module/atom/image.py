@@ -318,8 +318,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.Component.GeneralBattle.assets import GeneralBattleAssets
-    jade = GeneralBattleAssets.I_WIN
+    from tasks.Component.GeneralInvite.assets import GeneralInviteAssets
+    jade = GeneralInviteAssets.I_BACK_YELLOW
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)

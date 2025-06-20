@@ -20,8 +20,8 @@
   {
     "itemName": "u_circle_alternate",
     "imageName": "rs_u_circle_alternate.png",
-    "roiFront": "535,339,41,43",
-    "roiBack": "535,339,41,43",
+    "roiFront": "535,338,41,43",
+    "roiBack": "535,338,41,43",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "候补式神圆圈"
