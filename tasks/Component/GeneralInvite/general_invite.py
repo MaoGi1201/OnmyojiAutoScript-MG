@@ -375,7 +375,7 @@ class GeneralInvite(BaseTask, GeneralInviteAssets):
         is_select: bool = False  # 是否选中了好友
         if find_mode == FindMode.RECENT_FRIEND:
             logger.info('Find recent friend')
-            # 获取’最近‘在friend_class中的index
+            # 获取'最近'在friend_class中的index
             if '最近' not in friend_class:
                 logger.warning('No recent friend')
                 return False
@@ -387,7 +387,7 @@ class GeneralInvite(BaseTask, GeneralInviteAssets):
                 if self.appear_then_click(self.I_FLAG_2_OFF, interval=1):
                     continue
 
-            logger.info(f'Now find friend in ”最近“')
+            logger.info(f'Now find friend in "最近"')
             sleep(1)
             if not is_select:
                 if self.detect_select(name):

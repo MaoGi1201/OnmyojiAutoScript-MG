@@ -534,19 +534,20 @@ class ScriptTask(GeneralBattle, GameUi, SwitchSoul, AbyssShadowsAssets):
             # 等待设定的战斗时间
             while time.time() - start_time < combat_time:
                 self.screenshot()
-                if self.appear(self.I_WIN):
+                if self.appear_then_click(self.I_WIN):
                     break
             logger.info("Combat time ended, proceeding to exit.")
             self.device.stuck_record_clear()
         # 战斗提前结束的处理
-        while 1:
-            self.screenshot()
-            if self.appear_then_click(self.I_WIN, interval=1.5):
-                logger.info("Click Win button")
-                continue
-            if self.appear(self.I_ABYSS_NAVIGATION):
-                logger.info("Successfully returned to navigation")
-                break
+        # 检查是否提前出现I_WIN
+        if self.appear(self.I_WIN):
+            max_clicks = 3
+            for _ in range(max_clicks):
+                if self.appear_then_click(self.I_WIN, interval=1.5):
+                    # 点击后再判断I_WIN是否还在
+                    self.screenshot()
+                    if not self.appear(self.I_WIN):
+                        break
             return True
         # 点击返回
         while 1:
