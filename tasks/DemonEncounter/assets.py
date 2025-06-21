@@ -47,9 +47,9 @@ class DemonEncounterAssets:
 	# 极逢魔集结挑战 
 	I_BEST_BOSS_FIRE = RuleImage(roi_front=(1086,562,100,36), roi_back=(1086,562,100,36), threshold=0.8, method="Template matching", file="./tasks/DemonEncounter/boss/boss_best_boss_fire.png")
 	# 战斗失败-等待界面 
-	I_BOSS_WAIT = RuleImage(roi_front=(490,50,350,150), roi_back=(490,50,350,150), threshold=0.8, method="Template matching", file="./tasks/DemonEncounter/boss/boss_boss_wait.png")
+	I_BOSS_WAIT = RuleImage(roi_front=(557,105,166,32), roi_back=(557,105,166,32), threshold=0.8, method="Template matching", file="./tasks/DemonEncounter/boss/boss_boss_wait.png")
 	# 战斗结束标识，左下角有战绩按钮 
-	I_BOSS_DONE_CHECK = RuleImage(roi_front=(0,450,100,130), roi_back=(0,450,100,130), threshold=0.8, method="Template matching", file="./tasks/DemonEncounter/boss/boss_boss_done_check.png")
+	I_BOSS_DONE_CHECK = RuleImage(roi_front=(0,450,38,64), roi_back=(0,450,100,130), threshold=0.8, method="Template matching", file="./tasks/DemonEncounter/boss/boss_boss_done_check.png")
 
 
 	# Ocr Rule Assets
