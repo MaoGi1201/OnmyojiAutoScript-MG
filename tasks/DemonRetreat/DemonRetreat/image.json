@@ -74,8 +74,8 @@
   {
     "itemName": "reward_all",
     "imageName": "DemonRetreat_reward_all.png",
-    "roiFront": "534,540,176,60",
-    "roiBack": "534,540,176,60",
+    "roiFront": "534,540,178,60",
+    "roiBack": "534,540,178,60",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "全部领取"

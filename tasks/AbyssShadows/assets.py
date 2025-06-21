@@ -67,13 +67,13 @@ class AbyssShadowsAssets:
 	# 战报页面 
 	I_ABYSS_MAP = RuleImage(roi_front=(310,146,170,48), roi_back=(310,146,170,48), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_abyss_map.png")
 	# 战报退出按钮 
-	I_ABYSS_MAP_EXIT = RuleImage(roi_front=(1154,96,32,32), roi_back=(1154,96,32,32), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_abyss_map_exit.png")
+	I_ABYSS_MAP_EXIT = RuleImage(roi_front=(1152,99,32,32), roi_back=(1152,99,32,32), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_abyss_map_exit.png")
 	# 挑战按钮 
 	I_ABYSS_FIRE = RuleImage(roi_front=(1118,602,78,54), roi_back=(1118,602,78,54), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_abyss_fire.png")
 	# 前往 
 	I_ABYSS_GOTO_ENEMY = RuleImage(roi_front=(1121,605,76,46), roi_back=(1121,605,76,46), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_abyss_goto_enemy.png")
 	# 确认 
-	I_ENSURE_BUTTON = RuleImage(roi_front=(672,405,169,55), roi_back=(672,405,169,55), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_ensure_button.png")
+	I_ENSURE_BUTTON = RuleImage(roi_front=(669,401,174,60), roi_back=(669,401,174,60), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_ensure_button.png")
 	# 进攻中 
 	I_IS_ATTACK = RuleImage(roi_front=(588,62,70,28), roi_back=(588,62,70,28), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_is_attack.png")
 	# 孔雀暗域 
@@ -89,7 +89,7 @@ class AbyssShadowsAssets:
 	# 集结中 
 	I_WAIT_TO_START = RuleImage(roi_front=(586,66,70,26), roi_back=(586,66,70,26), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_wait_to_start.png")
 	# 准备 
-	I_EQUIPPING = RuleImage(roi_front=(1126,544,100,100), roi_back=(1126,544,100,100), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_equipping.png")
+	I_EQUIPPING = RuleImage(roi_front=(1126,544,100,84), roi_back=(1126,544,100,84), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_equipping.png")
 
 
 	# List Rule Assets

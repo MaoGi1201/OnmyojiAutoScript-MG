@@ -101,8 +101,8 @@
   {
     "itemName": "abyss_map_exit",
     "imageName": "res_abyss_map_exit.png",
-    "roiFront": "1154,96,32,32",
-    "roiBack": "1154,96,32,32",
+    "roiFront": "1152,99,32,32",
+    "roiBack": "1152,99,32,32",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "战报退出按钮"
@@ -128,8 +128,8 @@
   {
     "itemName": "ensure_button",
     "imageName": "res_ensure_button.png",
-    "roiFront": "672,405,169,55",
-    "roiBack": "672,405,169,55",
+    "roiFront": "669,401,174,60",
+    "roiBack": "669,401,174,60",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "确认"
@@ -200,8 +200,8 @@
   {
     "itemName": "equipping",
     "imageName": "res_equipping.png",
-    "roiFront": "1126,544,100,100",
-    "roiBack": "1126,544,100,100",
+    "roiFront": "1126,544,100,84",
+    "roiBack": "1126,544,100,84",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "准备"
