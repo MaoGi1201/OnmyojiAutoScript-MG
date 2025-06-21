@@ -137,8 +137,8 @@
   {
     "itemName": "boss_wait",
     "imageName": "boss_boss_wait.png",
-    "roiFront": "490,50,350,150",
-    "roiBack": "490,50,350,150",
+    "roiFront": "557,105,166,32",
+    "roiBack": "557,105,166,32",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "战斗失败-等待界面"
@@ -146,7 +146,7 @@
   {
     "itemName": "boss_done_check",
     "imageName": "boss_boss_done_check.png",
-    "roiFront": "0,450,100,130",
+    "roiFront": "0,450,38,64",
     "roiBack": "0,450,100,130",
     "method": "Template matching",
     "threshold": 0.8,
