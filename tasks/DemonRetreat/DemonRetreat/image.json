@@ -11,8 +11,8 @@
   {
     "itemName": "hunt",
     "imageName": "DemonRetreat_hunt.png",
-    "roiFront": "18,162,186,166",
-    "roiBack": "18,162,186,166",
+    "roiFront": "418,162,186,166",
+    "roiBack": "418,162,186,166",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "首领退治"

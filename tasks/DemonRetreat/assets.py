@@ -14,7 +14,7 @@ class DemonRetreatAssets:
 	# 神社 
 	I_SHRINE = RuleImage(roi_front=(870,624,65,61), roi_back=(870,624,65,61), threshold=0.8, method="Template matching", file="./tasks/DemonRetreat/DemonRetreat/DemonRetreat_shrine.png")
 	# 首领退治 
-	I_HUNT = RuleImage(roi_front=(18,162,186,166), roi_back=(18,162,186,166), threshold=0.8, method="Template matching", file="./tasks/DemonRetreat/DemonRetreat/DemonRetreat_hunt.png")
+	I_HUNT = RuleImage(roi_front=(418,162,186,166), roi_back=(418,162,186,166), threshold=0.8, method="Template matching", file="./tasks/DemonRetreat/DemonRetreat/DemonRetreat_hunt.png")
 	# 检查是否成功进入首领退治 
 	I_HUNT_CHECK = RuleImage(roi_front=(572,10,144,46), roi_back=(572,10,144,46), threshold=0.8, method="Template matching", file="./tasks/DemonRetreat/DemonRetreat/DemonRetreat_hunt_check.png")
 	# 集结 

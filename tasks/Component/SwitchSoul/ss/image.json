@@ -11,7 +11,7 @@
   {
     "itemName": "soul_preset",
     "imageName": "ss_soul_preset.png",
-    "roiFront": "335,73,90,51",
+    "roiFront": "329,68,96,54",
     "roiBack": "310,57,169,72",
     "method": "Template matching",
     "threshold": 0.8,

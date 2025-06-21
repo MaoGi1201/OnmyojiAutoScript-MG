@@ -117,11 +117,11 @@ class ScriptTask(GameUi, GeneralInvite, GeneralRoom, BondlingBattle, SwitchSoul,
                     # 某些活动的时候出现 “选择共鸣的阴阳师”
                     if self.appear_then_click(self.I_UI_CONFIRM, interval=1):
                         continue
-                    if self.check_and_invite(True):
-                        continue
                     if self.appear(self.I_CREATE_TEAM, interval=1):
                         self.ensure_private()
                         self.appear_then_click(self.I_CREATE_TEAM, interval=2)
+                        continue
+                    if self.check_and_invite(True):
                         continue
                     # 求援
                     if self.appear(self.I_BALL_HELP, interval=1):
