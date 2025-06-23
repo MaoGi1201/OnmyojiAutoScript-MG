@@ -42,6 +42,6 @@ if __name__ == '__main__':
     # print(detect_image(IMAGE_FILE, targe))
 
      #ocr demo
-     from tasks.SoulsTidy.assets import SoulsTidyAssets
-     target = SoulsTidyAssets.O_ST_FIRSET_LEVEL
+     from tasks.RichMan.assets import RichManAssets
+     target = RichManAssets.O_SP_RES_NUMBER
      print(detect_ocr(IMAGE_FILE, target))

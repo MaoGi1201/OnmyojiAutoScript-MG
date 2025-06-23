@@ -74,7 +74,7 @@
   {
     "itemName": "mall_sundry",
     "imageName": "navbar_mall_sundry.png",
-    "roiFront": "880,646,53,54",
+    "roiFront": "871,645,54,54",
     "roiBack": "834,621,116,90",
     "method": "Template matching",
     "threshold": 0.8,

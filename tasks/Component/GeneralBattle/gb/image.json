@@ -65,8 +65,8 @@
   {
     "itemName": "preset_ensure",
     "imageName": "gb_preset_ensure.png",
-    "roiFront": "352,643,141,50",
-    "roiBack": "305,625,236,83",
+    "roiFront": "349,638,148,52",
+    "roiBack": "349,638,148,52",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "确认预设的队伍"
@@ -254,8 +254,8 @@
   {
     "itemName": "present_less_than_5",
     "imageName": "gb_present_less_than_5.png",
-    "roiFront": "222,648,418,43",
-    "roiBack": "222,648,418,43",
+    "roiFront": "219,658,418,30",
+    "roiBack": "219,658,418,30",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "description"
@@ -299,7 +299,7 @@
   {
     "itemName": "preset_wit_number",
     "imageName": "gb_preset_wit_number.png",
-    "roiFront": "40,655,37,37",
+    "roiFront": "45,657,36,36",
     "roiBack": "9,636,100,74",
     "method": "Template matching",
     "threshold": 0.8,

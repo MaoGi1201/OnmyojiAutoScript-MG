@@ -6,7 +6,7 @@
     "roiBack": "524,175,38,35",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "勾选自动结契"
   },
   {
     "itemName": "c_auto_false",
@@ -15,7 +15,7 @@
     "roiBack": "524,174,38,37",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "自动结契"
   },
   {
     "itemName": "c_low_true",
@@ -24,7 +24,7 @@
     "roiBack": "543,271,30,32",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "勾选低级万象轮盘"
   },
   {
     "itemName": "c_low_false",
@@ -33,7 +33,7 @@
     "roiBack": "539,269,37,35",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "低级级万象轮盘"
   },
   {
     "itemName": "c_midum_true",
@@ -42,7 +42,7 @@
     "roiBack": "680,277,35,27",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "勾选中级万象轮盘"
   },
   {
     "itemName": "c_midum_false",
@@ -51,7 +51,7 @@
     "roiBack": "681,272,31,32",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "中级万象轮盘"
   },
   {
     "itemName": "c_high_true",
@@ -60,7 +60,7 @@
     "roiBack": "819,272,37,31",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "勾选高级万象轮盘"
   },
   {
     "itemName": "c_high_false",
@@ -69,7 +69,7 @@
     "roiBack": "818,272,36,34",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "高级万象轮盘"
   },
   {
     "itemName": "c_first_enable",
@@ -78,7 +78,7 @@
     "roiBack": "524,472,33,31",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "勾选结契式神优先"
   },
   {
     "itemName": "c_first_disable",
@@ -92,17 +92,17 @@
   {
     "itemName": "caption_ensure",
     "imageName": "capture_caption_ensure.png",
-    "roiFront": "690,532,129,56",
-    "roiBack": "690,532,129,56",
+    "roiFront": "690,534,122,50",
+    "roiBack": "690,534,122,50",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "确认结契按钮"
   },
   {
     "itemName": "click_caption",
     "imageName": "capture_click_caption.png",
-    "roiFront": "177,625,59,51",
-    "roiBack": "177,625,59,51",
+    "roiFront": "178,622,60,52",
+    "roiBack": "178,622,60,52",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "结契设置"
