@@ -42,6 +42,6 @@ if __name__ == '__main__':
     # print(detect_image(IMAGE_FILE, targe))
 
      #ocr demo
-     from tasks.RichMan.assets import RichManAssets
-     target = RichManAssets.O_SP_RES_NUMBER
+     from tasks.Secret.assets import SecretAssets
+     target = SecretAssets.O_SE_GOLD
      print(detect_ocr(IMAGE_FILE, target))
