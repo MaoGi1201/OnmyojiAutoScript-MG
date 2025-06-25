@@ -66,7 +66,7 @@ class ReplaceShikigamiAssets:
 	# description 
 	I_RS_MATERIAL_SELECTED = RuleImage(roi_front=(27,620,68,65), roi_back=(27,620,68,65), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_material_selected.png")
 	# description 
-	I_RS_N_SELECTED = RuleImage(roi_front=(30,620,66,60), roi_back=(30,620,66,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_n_selected.png")
+	I_RS_N_SELECTED = RuleImage(roi_front=(29,617,66,60), roi_back=(29,617,66,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_n_selected.png")
 	# description 
 	I_RS_R_SELECTED = RuleImage(roi_front=(26,617,72,60), roi_back=(26,617,72,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_r_selected.png")
 	# description 

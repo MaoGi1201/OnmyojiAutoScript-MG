@@ -74,8 +74,8 @@
   {
     "itemName": "rs_n_selected",
     "imageName": "rs_rs_n_selected.png",
-    "roiFront": "30,620,66,60",
-    "roiBack": "30,620,66,60",
+    "roiFront": "29,617,66,60",
+    "roiBack": "29,617,66,60",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "description"
