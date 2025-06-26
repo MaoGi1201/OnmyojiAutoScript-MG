@@ -67,7 +67,7 @@ class GameUiAssets:
 	# 检查是否在结界突破界面 
 	I_CHECK_REALM_RAID = RuleImage(roi_front=(119,617,52,54), roi_back=(119,616,68,76), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_realm_raid.png")
 	# 检查是否在御灵界面 
-	I_CHECK_GORYOU = RuleImage(roi_front=(881,17,30,39), roi_back=(881,17,30,39), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_goryou.png")
+	I_CHECK_GORYOU = RuleImage(roi_front=(882,18,30,39), roi_back=(882,18,30,39), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_goryou.png")
 	# 检查是否在委派界面 
 	I_CHECK_DELEGATION = RuleImage(roi_front=(839,132,49,45), roi_back=(839,132,49,45), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_delegation.png")
 	# 检查是否在秘闻界面 

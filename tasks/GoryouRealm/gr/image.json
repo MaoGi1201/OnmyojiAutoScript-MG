@@ -11,8 +11,8 @@
   {
     "itemName": "gr_lock",
     "imageName": "gr_gr_lock.png",
-    "roiFront": "559,564,27,32",
-    "roiBack": "559,564,27,32",
+    "roiFront": "557,564,27,32",
+    "roiBack": "557,564,27,32",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "description"
@@ -20,8 +20,8 @@
   {
     "itemName": "gr_unlock",
     "imageName": "gr_gr_unlock.png",
-    "roiFront": "556,562,26,33",
-    "roiBack": "556,562,26,33",
+    "roiFront": "554,560,26,33",
+    "roiBack": "554,560,26,33",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "description"
