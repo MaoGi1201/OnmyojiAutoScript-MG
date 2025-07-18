@@ -147,7 +147,7 @@
     "itemName": "peacock_area",
     "imageName": "res_peacock_area.png",
     "roiFront": "577,15,127,36",
-    "roiBack": "577,15,127,36",
+    "roiBack": "577,14,127,36",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "孔雀暗域"
@@ -156,7 +156,7 @@
     "itemName": "leopard_area",
     "imageName": "res_leopard_area.png",
     "roiFront": "589,14,104,39",
-    "roiBack": "589,14,104,39",
+    "roiBack": "589,13,104,39",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "黑豹领域"
@@ -165,7 +165,7 @@
     "itemName": "fox_area",
     "imageName": "res_fox_area.png",
     "roiFront": "581,19,121,29",
-    "roiBack": "581,19,121,29",
+    "roiBack": "581,18,121,29",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "白藏主领域"
@@ -183,7 +183,7 @@
     "itemName": "dragon_area",
     "imageName": "res_dragon_area.png",
     "roiFront": "582,14,112,34",
-    "roiBack": "582,14,112,34",
+    "roiBack": "582,13,112,34",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "神龙领域"
@@ -192,7 +192,7 @@
     "itemName": "wait_to_start",
     "imageName": "res_wait_to_start.png",
     "roiFront": "586,66,70,26",
-    "roiBack": "586,66,70,26",
+    "roiBack": "586,65,70,26",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "集结中"

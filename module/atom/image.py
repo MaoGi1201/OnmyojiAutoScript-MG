@@ -318,8 +318,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.RichMan.assets import RichManAssets
-    jade = RichManAssets.I_MALL_SUNDRY
+    from tasks.AbyssShadows.assets import AbyssShadowsAssets
+    jade = AbyssShadowsAssets.I_DRAGON_AREA
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)
