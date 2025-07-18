@@ -101,8 +101,8 @@
   {
     "itemName": "u_enter_realm",
     "imageName": "utilize_u_enter_realm.png",
-    "roiFront": "792,531,178,66",
-    "roiBack": "792,531,178,66",
+    "roiFront": "793,533,170,60",
+    "roiBack": "793,533,170,60",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "进入结界"

@@ -76,7 +76,7 @@ class KekkaiUtilizeAssets:
 	# description 
 	I_U_FISH_6 = RuleImage(roi_front=(544,201,59,52), roi_back=(530,184,82,416), threshold=0.8, method="Template matching", file="./tasks/KekkaiUtilize/utilize/utilize_u_fish_6.png")
 	# 进入结界 
-	I_U_ENTER_REALM = RuleImage(roi_front=(792,531,178,66), roi_back=(792,531,178,66), threshold=0.8, method="Template matching", file="./tasks/KekkaiUtilize/utilize/utilize_u_enter_realm.png")
+	I_U_ENTER_REALM = RuleImage(roi_front=(793,533,170,60), roi_back=(793,533,170,60), threshold=0.8, method="Template matching", file="./tasks/KekkaiUtilize/utilize/utilize_u_enter_realm.png")
 	# 右侧大的图片 
 	I_U_BIG_3 = RuleImage(roi_front=(835,321,100,25), roi_back=(835,321,100,25), threshold=0.8, method="Template matching", file="./tasks/KekkaiUtilize/utilize/utilize_u_big_3.png")
 	# description 
