@@ -39,11 +39,11 @@ class SoulsTidyAssets:
 	# 招财猫 
 	I_ST_CAT = RuleImage(roi_front=(799,269,147,133), roi_back=(799,269,147,133), threshold=0.7, method="Template matching", file="./tasks/SoulsTidy/simple/simple_st_cat.png")
 	# 奉纳 
-	I_ST_DONATE = RuleImage(roi_front=(811,629,130,70), roi_back=(811,629,130,70), threshold=0.8, method="Template matching", file="./tasks/SoulsTidy/simple/simple_st_donate.png")
+	I_ST_DONATE = RuleImage(roi_front=(811,627,130,70), roi_back=(811,627,130,70), threshold=0.8, method="Template matching", file="./tasks/SoulsTidy/simple/simple_st_donate.png")
 	# 神赐 
 	I_ST_GOD_PRESENT = RuleImage(roi_front=(578,201,131,73), roi_back=(542,117,204,219), threshold=0.8, method="Template matching", file="./tasks/SoulsTidy/simple/simple_st_god_present.png")
 	# 已弃置被选中 
-	I_ST_ABANDONED_SELECTED = RuleImage(roi_front=(31,114,106,48), roi_back=(31,114,106,48), threshold=0.8, method="Template matching", file="./tasks/SoulsTidy/simple/simple_st_abandoned_selected.png")
+	I_ST_ABANDONED_SELECTED = RuleImage(roi_front=(31,113,106,48), roi_back=(31,113,106,48), threshold=0.8, method="Template matching", file="./tasks/SoulsTidy/simple/simple_st_abandoned_selected.png")
 	# 第一个御魂是+0的 
 	I_ST_LEVEL_0 = RuleImage(roi_front=(90,240,36,20), roi_back=(90,240,36,20), threshold=0.9, method="Template matching", file="./tasks/SoulsTidy/simple/simple_st_level_0.png")
 	# 御魂奉纳后获得的金币 
