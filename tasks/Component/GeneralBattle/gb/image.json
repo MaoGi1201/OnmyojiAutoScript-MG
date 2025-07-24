@@ -254,11 +254,11 @@
   {
     "itemName": "present_less_than_5",
     "imageName": "gb_present_less_than_5.png",
-    "roiFront": "219,658,418,30",
-    "roiBack": "219,658,418,30",
+    "roiFront": "220,658,420,30",
+    "roiBack": "220,658,420,30",
     "method": "Template matching",
-    "threshold": 0.8,
-    "description": "description"
+    "threshold": 0.7,
+    "description": "队伍人数不足5"
   },
   {
     "itemName": "de_gold",

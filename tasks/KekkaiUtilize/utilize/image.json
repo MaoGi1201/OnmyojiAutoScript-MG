@@ -104,7 +104,7 @@
     "roiFront": "793,533,170,60",
     "roiBack": "793,533,170,60",
     "method": "Template matching",
-    "threshold": 0.8,
+    "threshold": 0.7,
     "description": "进入结界"
   },
   {

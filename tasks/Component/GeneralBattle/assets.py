@@ -123,8 +123,8 @@ class GeneralBattleAssets:
 	I_REWARD_SOUL_6 = RuleImage(roi_front=(942,397,97,20), roi_back=(254,163,797,396), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_reward_soul_6.png")
 	# 针对封魔的特殊 
 	I_DE_WIN = RuleImage(roi_front=(502,50,100,100), roi_back=(239,36,399,133), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_de_win.png")
-	# description 
-	I_PRESENT_LESS_THAN_5 = RuleImage(roi_front=(219,658,418,30), roi_back=(219,658,418,30), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_present_less_than_5.png")
+	# 队伍人数不足5 
+	I_PRESENT_LESS_THAN_5 = RuleImage(roi_front=(220,658,420,30), roi_back=(220,658,420,30), threshold=0.7, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_present_less_than_5.png")
 	# 封魔的金币 
 	I_DE_GOLD = RuleImage(roi_front=(61,52,30,25), roi_back=(45,33,65,64), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_de_gold.png")
 	# 绿标 

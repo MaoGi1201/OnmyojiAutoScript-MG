@@ -92,8 +92,8 @@
   {
     "itemName": "st_donate",
     "imageName": "simple_st_donate.png",
-    "roiFront": "811,627,130,70",
-    "roiBack": "811,627,130,70",
+    "roiFront": "811,628,130,70",
+    "roiBack": "811,628,130,70",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "奉纳"
@@ -110,10 +110,10 @@
   {
     "itemName": "st_abandoned_selected",
     "imageName": "simple_st_abandoned_selected.png",
-    "roiFront": "31,113,106,48",
-    "roiBack": "31,113,106,48",
+    "roiFront": "31,114,106,48",
+    "roiBack": "31,114,106,48",
     "method": "Template matching",
-    "threshold": 0.8,
+    "threshold": 0.7,
     "description": "已弃置被选中"
   },
   {
