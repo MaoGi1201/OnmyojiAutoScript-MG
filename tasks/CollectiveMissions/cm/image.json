@@ -2,7 +2,7 @@
   {
     "itemName": "cm_shrine",
     "imageName": "cm_cm_shrine.png",
-    "roiFront": "875,628,55,60",
+    "roiFront": "875,628,56,60",
     "roiBack": "853,604,100,100",
     "method": "Template matching",
     "threshold": 0.8,
@@ -11,7 +11,7 @@
   {
     "itemName": "cm_cm",
     "imageName": "cm_cm_cm.png",
-    "roiFront": "157,169,210,161",
+    "roiFront": "157,169,210,160",
     "roiBack": "137,131,246,235",
     "method": "Template matching",
     "threshold": 0.8,
@@ -20,8 +20,8 @@
   {
     "itemName": "cm_present",
     "imageName": "cm_cm_present.png",
-    "roiFront": "559,594,160,66",
-    "roiBack": "559,594,160,66",
+    "roiFront": "559,596,160,62",
+    "roiBack": "559,596,160,62",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "提交"
@@ -92,7 +92,7 @@
   {
     "itemName": "cm_switch",
     "imageName": "cm_cm_switch.png",
-    "roiFront": "414,478,43,58",
+    "roiFront": "414,478,48,58",
     "roiBack": "310,453,282,114",
     "method": "Template matching",
     "threshold": 0.8,

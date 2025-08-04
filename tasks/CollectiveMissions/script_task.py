@@ -106,6 +106,7 @@ class ScriptTask(GameUi, CollectiveMissionsAssets):
         result_1 = ocr_1.ocr(self.device.image)
         result_2 = ocr_2.ocr(self.device.image)
         result_1 = result_1.replace('·', '')
+        result_2 = result_2.replace('·', '').replace('御霞', '御灵').replace('御室', '御灵').replace('御靈', '御灵')
         if result_1 == '结伴同行':
             return MC.FRIEND
         elif result_1 == '契灵探查':

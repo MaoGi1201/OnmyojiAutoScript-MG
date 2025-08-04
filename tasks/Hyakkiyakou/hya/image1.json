@@ -38,8 +38,8 @@
   {
     "itemName": "hend",
     "imageName": "hya_hend.png",
-    "roiFront": "81,164,86,300",
-    "roiBack": "81,164,86,300",
+    "roiFront": "79,165,86,300",
+    "roiBack": "79,165,86,300",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "结束"

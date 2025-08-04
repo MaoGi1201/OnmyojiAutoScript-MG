@@ -21,11 +21,11 @@ class CollectiveMissionsAssets:
 
 	# Image Rule Assets
 	# 神社 
-	I_CM_SHRINE = RuleImage(roi_front=(875,628,55,60), roi_back=(853,604,100,100), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_shrine.png")
+	I_CM_SHRINE = RuleImage(roi_front=(875,628,56,60), roi_back=(853,604,100,100), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_shrine.png")
 	# 集体任务 
-	I_CM_CM = RuleImage(roi_front=(157,169,210,161), roi_back=(137,131,246,235), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_cm.png")
+	I_CM_CM = RuleImage(roi_front=(157,169,210,160), roi_back=(137,131,246,235), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_cm.png")
 	# 提交 
-	I_CM_PRESENT = RuleImage(roi_front=(559,594,160,66), roi_back=(559,594,160,66), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_present.png")
+	I_CM_PRESENT = RuleImage(roi_front=(559,596,160,62), roi_back=(559,596,160,62), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_present.png")
 	# 判断是否到达 
 	I_CM_RECORDS = RuleImage(roi_front=(1032,617,54,63), roi_back=(960,562,193,138), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_records.png")
 	# 将材料拉满的按钮，用来判断是否拉满 
@@ -41,14 +41,14 @@ class CollectiveMissionsAssets:
 	# 领取奖励 
 	I_CM_REWARDS = RuleImage(roi_front=(567,463,145,60), roi_back=(200,458,914,88), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_rewards.png")
 	# description 
-	I_CM_SWITCH = RuleImage(roi_front=(414,478,43,58), roi_back=(310,453,282,114), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_switch.png")
+	I_CM_SWITCH = RuleImage(roi_front=(414,478,48,58), roi_back=(310,453,282,114), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_switch.png")
 
 
 	# Ocr Rule Assets
 	# Ocr-description 
 	O_CM_1 = RuleOcr(roi=(217,133,115,43), area=(217,133,115,43), mode="Single", method="Default", keyword="", name="cm_1")
 	# Ocr-description 
-	O_CM_2 = RuleOcr(roi=(333,135,92,44), area=(333,135,92,44), mode="Single", method="Default", keyword="", name="cm_2")
+	O_CM_2 = RuleOcr(roi=(350,135,92,44), area=(350,135,92,44), mode="Single", method="Default", keyword="", name="cm_2")
 	# Ocr-description 
 	O_CM_3 = RuleOcr(roi=(554,135,113,40), area=(554,135,113,40), mode="Single", method="Default", keyword="", name="cm_3")
 	# Ocr-description 

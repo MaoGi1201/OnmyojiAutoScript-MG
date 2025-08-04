@@ -45,7 +45,7 @@ class HyakkiyakouAssets:
 	# 押注 
 	I_HSELECTED = RuleImage(roi_front=(980,265,41,44), roi_back=(226,53,836,348), threshold=0.8, method="Template matching", file="./tasks/Hyakkiyakou/hya/hya_hselected.png")
 	# 结束 
-	I_HEND = RuleImage(roi_front=(81,164,86,300), roi_back=(81,164,86,300), threshold=0.8, method="Template matching", file="./tasks/Hyakkiyakou/hya/hya_hend.png")
+	I_HEND = RuleImage(roi_front=(79,165,86,300), roi_back=(79,165,86,300), threshold=0.8, method="Template matching", file="./tasks/Hyakkiyakou/hya/hya_hend.png")
 	# 冰冻 
 	I_HFREEZE = RuleImage(roi_front=(1092,665,187,54), roi_back=(1092,665,187,54), threshold=0.8, method="Template matching", file="./tasks/Hyakkiyakou/hya/hya_hfreeze.png")
 	# description 
