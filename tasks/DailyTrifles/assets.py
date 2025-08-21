@@ -33,9 +33,9 @@ class DailyTriflesAssets:
 	# 礼包屋 
 	I_ROOM_GIFT = RuleImage(roi_front=(1142,647,52,54), roi_back=(1127,611,103,94), threshold=0.8, method="Template matching", file="./tasks/DailyTrifles/store/store_room_gift.png")
 	# description 
-	I_GIFT_RECOMMEND = RuleImage(roi_front=(1184,225,46,56), roi_back=(1172,102,83,306), threshold=0.8, method="Template matching", file="./tasks/DailyTrifles/store/store_gift_recommend.png")
+	I_GIFT_RECOMMEND = RuleImage(roi_front=(1185,367,54,64), roi_back=(1185,367,54,64), threshold=0.8, method="Template matching", file="./tasks/DailyTrifles/store/store_gift_recommend.png")
 	# 免费黑蛋 
-	I_GIFT_SIGN = RuleImage(roi_front=(222,125,306,218), roi_back=(222,125,306,218), threshold=0.8, method="Template matching", file="./tasks/DailyTrifles/store/store_gift_sign.png")
+	I_GIFT_SIGN = RuleImage(roi_front=(178,174,150,170), roi_back=(178,174,150,170), threshold=0.8, method="Template matching", file="./tasks/DailyTrifles/store/store_gift_sign.png")
 	# 体力 
 	I_SPECIAL_SUSHI = RuleImage(roi_front=(180,130,800,460), roi_back=(180,130,800,460), threshold=0.8, method="Template matching", file="./tasks/DailyTrifles/store/store_sushi.png")
 	# 购买时货币类型为勾玉 
