@@ -22,7 +22,7 @@ class RealmRaidAssets:
 	# description 
 	I_MEDAL_2 = RuleImage(roi_front=(572,478,194,48), roi_back=(217,193,923,354), threshold=0.8, method="Template matching", file="./tasks/RealmRaid/res/res_medal_2.png")
 	# description 
-	I_MEDAL_1 = RuleImage(roi_front=(570,206,198,52), roi_back=(237,198,892,336), threshold=0.8, method="Template matching", file="./tasks/RealmRaid/res/res_medal_1.png")
+	I_MEDAL_1 = RuleImage(roi_front=(570,206,198,52), roi_back=(237,198,892,336), threshold=0.7, method="Template matching", file="./tasks/RealmRaid/res/res_medal_1.png")
 	# 没有勋章的 
 	I_MEDAL_0 = RuleImage(roi_front=(536,336,198,52), roi_back=(231,200,898,336), threshold=0.8, method="Template matching", file="./tasks/RealmRaid/res/res_medal_0.png")
 	# 右上角红色的关闭 

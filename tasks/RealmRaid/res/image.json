@@ -50,7 +50,7 @@
     "roiFront": "570,206,198,52",
     "roiBack": "237,198,892,336",
     "method": "Template matching",
-    "threshold": 0.8,
+    "threshold": 0.7,
     "description": "description"
   },
   {
