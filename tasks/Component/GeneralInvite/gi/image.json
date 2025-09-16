@@ -2,8 +2,8 @@
   {
     "itemName": "add_1",
     "imageName": "gi_add_1.png",
-    "roiFront": "592,288,114,51",
-    "roiBack": "592,288,114,51",
+    "roiFront": "596,241,114,51",
+    "roiBack": "569,196,186,161",
     "method": "Template matching",
     "threshold": 0.9,
     "description": "中间的邀请图片"
@@ -11,8 +11,8 @@
   {
     "itemName": "add_2",
     "imageName": "gi_add_2.png",
-    "roiFront": "1016,202,100,100",
-    "roiBack": "1016,202,100,100",
+    "roiFront": "1013,249,100,100",
+    "roiBack": "970,151,193,220",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "最右边的邀请"
@@ -20,8 +20,8 @@
   {
     "itemName": "fire_fail",
     "imageName": "gi_fire_fail.png",
-    "roiFront": "1177,604,82,74",
-    "roiBack": "1177,604,82,74",
+    "roiFront": "1177,604,81,74",
+    "roiBack": "1177,604,81,74",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "description"
@@ -29,8 +29,8 @@
   {
     "itemName": "fire",
     "imageName": "gi_fire.png",
-    "roiFront": "1176,600,82,88",
-    "roiBack": "1176,600,82,88",
+    "roiFront": "1179,602,81,74",
+    "roiBack": "1179,602,81,74",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "description"
@@ -146,8 +146,8 @@
   {
     "itemName": "back_yellow",
     "imageName": "gi_back_yellow.png",
-    "roiFront": "19,14,58,55",
-    "roiBack": "19,14,58,55",
+    "roiFront": "19,13,58,55",
+    "roiBack": "19,13,58,55",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "左上角退出"
@@ -155,8 +155,8 @@
   {
     "itemName": "invite_ensure",
     "imageName": "gi_invite_ensure.png",
-    "roiFront": "708,545,132,60",
-    "roiBack": "708,545,132,60",
+    "roiFront": "710,544,132,60",
+    "roiBack": "710,544,132,60",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "点击邀请"
@@ -173,38 +173,38 @@
   {
     "itemName": "flag_1_on",
     "imageName": "gi_flag_1_on.png",
-    "roiFront": "354,124,62,22",
-    "roiBack": "354,124,62,22",
+    "roiFront": "354,126,62,21",
+    "roiBack": "354,126,62,21",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "好友选中"
+    "description": "用来判断当前的列表是哪儿的"
   },
   {
     "itemName": "flag_1_off",
     "imageName": "gi_flag_1_off.png",
-    "roiFront": "352,126,58,22",
-    "roiBack": "352,126,58,22",
+    "roiFront": "353,126,58,22",
+    "roiBack": "353,126,58,22",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "好友未选中"
+    "description": "description"
   },
   {
     "itemName": "flag_2_on",
     "imageName": "gi_flag_2_on.png",
-    "roiFront": "471,123,62,24",
-    "roiBack": "471,123,62,24",
+    "roiFront": "465,126,61,24",
+    "roiBack": "465,126,61,24",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "最近选中"
+    "description": "description"
   },
   {
     "itemName": "flag_2_off",
     "imageName": "gi_flag_2_off.png",
-    "roiFront": "583,127,58,21",
-    "roiBack": "583,127,58,21",
+    "roiFront": "469,127,58,21",
+    "roiBack": "469,127,58,21",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "最近未选中"
+    "description": "description"
   },
   {
     "itemName": "flag_3_on",
@@ -213,7 +213,7 @@
     "roiBack": "588,126,48,22",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "寮友选中"
+    "description": "description"
   },
   {
     "itemName": "flag_3_off",
@@ -222,7 +222,7 @@
     "roiBack": "590,126,41,22",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "寮友未选中"
+    "description": "description"
   },
   {
     "itemName": "flag_4_on",
@@ -231,7 +231,7 @@
     "roiBack": "713,128,34,21",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "跨区选中"
+    "description": "description"
   },
   {
     "itemName": "flag_4_off",
@@ -240,7 +240,7 @@
     "roiBack": "703,128,53,21",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "跨区未选中"
+    "description": "description"
   },
   {
     "itemName": "add_sea",
@@ -308,8 +308,8 @@
   {
     "itemName": "i_no_default",
     "imageName": "gi_i_no_default.png",
-    "roiFront": "510,342,36,36",
-    "roiBack": "510,342,36,36",
+    "roiFront": "542,343,36,35",
+    "roiBack": "542,343,36,35",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "不勾选 默认邀请"
@@ -317,8 +317,8 @@
   {
     "itemName": "i_default",
     "imageName": "gi_i_default.png",
-    "roiFront": "506,340,42,40",
-    "roiBack": "506,340,42,40",
+    "roiFront": "541,342,41,39",
+    "roiBack": "541,342,41,39",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "勾选 默认邀请"
@@ -335,8 +335,8 @@
   {
     "itemName": "gi_sure",
     "imageName": "gi_gi_sure.png",
-    "roiFront": "670,398,176,62",
-    "roiBack": "670,398,176,62",
+    "roiFront": "670,402,175,60",
+    "roiBack": "670,402,175,60",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "队长邀请 确定"
@@ -353,8 +353,8 @@
   {
     "itemName": "gi_in_room",
     "imageName": "gi_gi_in_room.png",
-    "roiFront": "84,16,142,52",
-    "roiBack": "84,16,142,52",
+    "roiFront": "92,17,213,64",
+    "roiBack": "92,17,213,64",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "三人御魂组队左上角的协站队伍"

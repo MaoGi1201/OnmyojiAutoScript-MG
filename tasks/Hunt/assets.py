@@ -24,19 +24,19 @@ class HuntAssets:
 
 	# Image Rule Assets
 	# 麒麟的挑战 
-	I_KIRIN_CHALLAGE = RuleImage(roi_front=(1069,567,106,60), roi_back=(1069,567,106,60), threshold=0.8, method="Template matching", file="./tasks/Hunt/kirin/kirin_kirin_challage.png")
+	I_KIRIN_CHALLAGE = RuleImage(roi_front=(1134,597,90,54), roi_back=(1134,597,90,54), threshold=0.8, method="Template matching", file="./tasks/Hunt/kirin/kirin_kirin_challage.png")
 	# 集合 
-	I_KIRIN_GATHER = RuleImage(roi_front=(28,476,76,64), roi_back=(28,476,76,64), threshold=0.8, method="Template matching", file="./tasks/Hunt/kirin/kirin_kirin_gather.png")
-	# 已结束 
-	I_KIRIN_END = RuleImage(roi_front=(1047,579,140,60), roi_back=(1047,579,140,60), threshold=0.8, method="Template matching", file="./tasks/Hunt/kirin/kirin_kirin_end.png")
+	I_KIRIN_GATHER = RuleImage(roi_front=(28,480,75,64), roi_back=(28,480,75,64), threshold=0.8, method="Template matching", file="./tasks/Hunt/kirin/kirin_kirin_gather.png")
+	# 麒麟已挑战 
+	I_KIRIN_END = RuleImage(roi_front=(1126,601,104,44), roi_back=(1126,601,104,44), threshold=0.8, method="Template matching", file="./tasks/Hunt/kirin/kirin_kirin_end.png")
 
 
 	# Image Rule Assets
 	# 点击阴界之门 
-	I_NW = RuleImage(roi_front=(1059,601,100,100), roi_back=(1059,601,100,100), threshold=0.8, method="Template matching", file="./tasks/Hunt/netherworld/netherworld_nw.png")
+	I_NW = RuleImage(roi_front=(1060,602,100,100), roi_back=(1060,602,100,100), threshold=0.8, method="Template matching", file="./tasks/Hunt/netherworld/netherworld_nw.png")
 	# 点击挑战 
-	I_NW_CHALLAGE = RuleImage(roi_front=(305,589,172,66), roi_back=(305,589,172,66), threshold=0.8, method="Template matching", file="./tasks/Hunt/netherworld/netherworld_nw_challage.png")
+	I_NW_CHALLAGE = RuleImage(roi_front=(306,590,171,63), roi_back=(306,590,171,63), threshold=0.8, method="Template matching", file="./tasks/Hunt/netherworld/netherworld_nw_challage.png")
 	# 今日已挑战 
-	I_NW_DONE = RuleImage(roi_front=(237,603,160,42), roi_back=(237,603,160,42), threshold=0.9, method="Template matching", file="./tasks/Hunt/netherworld/netherworld_nw_done.png")
+	I_NW_DONE = RuleImage(roi_front=(308,600,156,41), roi_back=(308,600,156,41), threshold=0.9, method="Template matching", file="./tasks/Hunt/netherworld/netherworld_nw_done.png")
 
 
