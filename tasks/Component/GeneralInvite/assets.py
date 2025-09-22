@@ -12,13 +12,13 @@ class GeneralInviteAssets:
 
 	# Image Rule Assets
 	# 中间的邀请图片 
-	I_ADD_1 = RuleImage(roi_front=(592,288,114,51), roi_back=(592,288,114,51), threshold=0.9, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_add_1.png")
+	I_ADD_1 = RuleImage(roi_front=(596,241,114,51), roi_back=(569,196,186,161), threshold=0.9, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_add_1.png")
 	# 最右边的邀请 
-	I_ADD_2 = RuleImage(roi_front=(1016,202,100,100), roi_back=(1016,202,100,100), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_add_2.png")
+	I_ADD_2 = RuleImage(roi_front=(1013,249,100,100), roi_back=(970,151,193,220), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_add_2.png")
 	# description 
-	I_FIRE_FAIL = RuleImage(roi_front=(1177,604,82,74), roi_back=(1177,604,82,74), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_fire_fail.png")
+	I_FIRE_FAIL = RuleImage(roi_front=(1177,604,81,74), roi_back=(1177,604,81,74), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_fire_fail.png")
 	# description 
-	I_FIRE = RuleImage(roi_front=(1176,600,82,88), roi_back=(1176,600,82,88), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_fire.png")
+	I_FIRE = RuleImage(roi_front=(1179,602,81,74), roi_back=(1179,602,81,74), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_fire.png")
 	# 锁定阵容的图片 
 	I_LOCK = RuleImage(roi_front=(29,644,29,32), roi_back=(29,644,29,32), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_lock.png")
 	# 还没有锁定阵容 
@@ -44,26 +44,26 @@ class GeneralInviteAssets:
 	# 游戏服务器获取在线好友时等待的图片 
 	I_LOAD_FRIEND = RuleImage(roi_front=(709,546,134,60), roi_back=(709,546,134,60), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_load_friend.png")
 	# 左上角退出 
-	I_BACK_YELLOW = RuleImage(roi_front=(19,14,58,55), roi_back=(19,14,58,55), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_back_yellow.png")
+	I_BACK_YELLOW = RuleImage(roi_front=(19,13,58,55), roi_back=(19,13,58,55), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_back_yellow.png")
 	# 点击邀请 
-	I_INVITE_ENSURE = RuleImage(roi_front=(708,545,132,60), roi_back=(708,545,132,60), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_invite_ensure.png")
+	I_INVITE_ENSURE = RuleImage(roi_front=(710,544,132,60), roi_back=(710,544,132,60), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_invite_ensure.png")
 	# 判断是否点中好友了 
 	I_SELECTED = RuleImage(roi_front=(895,373,33,32), roi_back=(895,373,33,32), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_selected.png")
-	# 好友选中 
-	I_FLAG_1_ON = RuleImage(roi_front=(354,124,62,22), roi_back=(354,124,62,22), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_1_on.png")
-	# 好友未选中 
-	I_FLAG_1_OFF = RuleImage(roi_front=(352,126,58,22), roi_back=(352,126,58,22), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_1_off.png")
-	# 最近选中 
-	I_FLAG_2_ON = RuleImage(roi_front=(471,123,62,24), roi_back=(471,123,62,24), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_2_on.png")
-	# 最近未选中 
-	I_FLAG_2_OFF = RuleImage(roi_front=(583,127,58,21), roi_back=(583,127,58,21), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_2_off.png")
-	# 寮友选中 
+	# 用来判断当前的列表是哪儿的 
+	I_FLAG_1_ON = RuleImage(roi_front=(354,126,62,21), roi_back=(354,126,62,21), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_1_on.png")
+	# description 
+	I_FLAG_1_OFF = RuleImage(roi_front=(353,126,58,22), roi_back=(353,126,58,22), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_1_off.png")
+	# description 
+	I_FLAG_2_ON = RuleImage(roi_front=(465,126,61,24), roi_back=(465,126,61,24), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_2_on.png")
+	# description 
+	I_FLAG_2_OFF = RuleImage(roi_front=(469,127,58,21), roi_back=(469,127,58,21), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_2_off.png")
+	# description 
 	I_FLAG_3_ON = RuleImage(roi_front=(588,126,48,22), roi_back=(588,126,48,22), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_3_on.png")
-	# 寮友未选中 
+	# description 
 	I_FLAG_3_OFF = RuleImage(roi_front=(590,126,41,22), roi_back=(590,126,41,22), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_3_off.png")
-	# 跨区选中 
+	# description 
 	I_FLAG_4_ON = RuleImage(roi_front=(713,128,34,21), roi_back=(713,128,34,21), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_4_on.png")
-	# 跨区未选中 
+	# description 
 	I_FLAG_4_OFF = RuleImage(roi_front=(703,128,53,21), roi_back=(703,128,53,21), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_4_off.png")
 	# 永生之海添加好友 
 	I_ADD_SEA = RuleImage(roi_front=(836,231,100,100), roi_back=(836,231,100,100), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_add_sea.png")
@@ -80,17 +80,17 @@ class GeneralInviteAssets:
 	# 队员默认接受邀请 
 	I_I_ACCEPT_DEFAULT = RuleImage(roi_front=(205,223,61,68), roi_back=(205,223,61,297), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_i_accept_default.png")
 	# 不勾选 默认邀请 
-	I_I_NO_DEFAULT = RuleImage(roi_front=(510,342,36,36), roi_back=(510,342,36,36), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_i_no_default.png")
+	I_I_NO_DEFAULT = RuleImage(roi_front=(542,343,36,35), roi_back=(542,343,36,35), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_i_no_default.png")
 	# 勾选 默认邀请 
-	I_I_DEFAULT = RuleImage(roi_front=(506,340,42,40), roi_back=(506,340,42,40), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_i_default.png")
+	I_I_DEFAULT = RuleImage(roi_front=(541,342,41,39), roi_back=(541,342,41,39), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_i_default.png")
 	# description 
 	I_GI_CANCEL = RuleImage(roi_front=(438,407,171,55), roi_back=(438,407,171,55), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_gi_cancel.png")
 	# 队长邀请 确定 
-	I_GI_SURE = RuleImage(roi_front=(670,398,176,62), roi_back=(670,398,176,62), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_gi_sure.png")
+	I_GI_SURE = RuleImage(roi_front=(670,402,175,60), roi_back=(670,402,175,60), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_gi_sure.png")
 	# 所有的组队界面都有加成 
 	I_GI_BUFF = RuleImage(roi_front=(794,38,46,42), roi_back=(794,38,46,42), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_gi_buff.png")
 	# 三人御魂组队左上角的协站队伍 
-	I_GI_IN_ROOM = RuleImage(roi_front=(84,16,142,52), roi_back=(84,16,142,52), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_gi_in_room.png")
+	I_GI_IN_ROOM = RuleImage(roi_front=(92,17,213,64), roi_back=(92,17,213,64), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_gi_in_room.png")
 	# description 
 	I_BACK_YELLOW_SEA = RuleImage(roi_front=(31,16,42,42), roi_back=(31,16,42,42), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_back_yellow_sea.png")
 
