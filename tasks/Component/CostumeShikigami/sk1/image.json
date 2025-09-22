@@ -20,7 +20,7 @@
   {
     "itemName": "soul_preset_1",
     "imageName": "sk1_soul_preset_1.png",
-    "roiFront": "335,73,90,51",
+    "roiFront": "336,74,86,48",
     "roiBack": "310,57,169,72",
     "method": "Template matching",
     "threshold": 0.8,
@@ -65,8 +65,8 @@
   {
     "itemName": "sou_switch_sure_1",
     "imageName": "sk1_sou_switch_sure_1.png",
-    "roiFront": "668,401,180,61",
-    "roiBack": "668,401,180,61",
+    "roiFront": "668,400,178,60",
+    "roiBack": "668,400,178,60",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "description"
@@ -146,7 +146,7 @@
   {
     "itemName": "sou_team_present_1",
     "imageName": "sk1_sou_team_present_1.png",
-    "roiFront": "720,76,136,43",
+    "roiFront": "724,72,132,44",
     "roiBack": "706,68,175,63",
     "method": "Template matching",
     "threshold": 0.8,
@@ -164,7 +164,7 @@
   {
     "itemName": "st_souls_1",
     "imageName": "sk1_st_souls_1.png",
-    "roiFront": "1180,236,62,66",
+    "roiFront": "1183,226,62,76",
     "roiBack": "1176,230,70,80",
     "method": "Template matching",
     "threshold": 0.8,
