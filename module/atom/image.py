@@ -322,8 +322,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.AbyssShadows.assets import AbyssShadowsAssets
-    jade = AbyssShadowsAssets.I_WAIT_TO_START
+    from tasks.Component.CostumeShikigami.assets import CostumeShikigamiAssets
+    jade = CostumeShikigamiAssets.I_ST_SOULS_1
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)
