@@ -25,9 +25,9 @@ class WantedQuestsAssets:
 	# 悬赏封印 
 	O_WQ_WANTED = RuleOcr(roi=(9,145,123,381), area=(9,145,123,381), mode="Full", method="Default", keyword="", name="wq_wanted")
 	# Ocr-description 
-	O_WQ_TEXT_1 = RuleOcr(roi=(67,233,52,32), area=(67,233,52,32), mode="Single", method="Default", keyword="封印", name="wq_text_1")
+	O_WQ_TEXT_1 = RuleOcr(roi=(20,233,52,32), area=(20,233,52,32), mode="Single", method="Default", keyword="封印", name="wq_text_1")
 	# Ocr-description 
-	O_WQ_TEXT_2 = RuleOcr(roi=(66,377,52,32), area=(66,377,52,32), mode="Single", method="Default", keyword="封印", name="wq_text_2")
+	O_WQ_TEXT_2 = RuleOcr(roi=(20,377,52,32), area=(20,377,52,32), mode="Single", method="Default", keyword="封印", name="wq_text_2")
 	# Ocr-description 
 	O_WQ_NUM_1 = RuleOcr(roi=(32,260,72,27), area=(32,260,72,27), mode="DigitCounter", method="Default", keyword="", name="wq_num_1")
 	# Ocr-description 
@@ -139,9 +139,9 @@ class WantedQuestsAssets:
 	# 勾号 
 	I_WQ_DONE = RuleImage(roi_front=(248,183,37,39), roi_back=(107,147,570,389), threshold=0.8, method="Template matching", file="./tasks/WantedQuests/wq/wq_wq_done.png")
 	# 一键追踪 
-	I_TRACE_ENABLE = RuleImage(roi_front=(1097,588,101,70), roi_back=(1097,588,101,70), threshold=0.8, method="Template matching", file="./tasks/WantedQuests/wq/wq_trace_enable.png")
+	I_TRACE_ENABLE = RuleImage(roi_front=(1097,588,100,70), roi_back=(1097,588,101,70), threshold=0.8, method="Template matching", file="./tasks/WantedQuests/wq/wq_trace_enable.png")
 	# 取消追踪 
-	I_TRACE_DISABLE = RuleImage(roi_front=(1091,586,108,70), roi_back=(1091,586,108,70), threshold=0.8, method="Template matching", file="./tasks/WantedQuests/wq/wq_trace_disable.png")
+	I_TRACE_DISABLE = RuleImage(roi_front=(1091,586,108,80), roi_back=(1091,586,108,70), threshold=0.8, method="Template matching", file="./tasks/WantedQuests/wq/wq_trace_disable.png")
 	# 奖励宝箱 
 	I_WQ_BOX = RuleImage(roi_front=(48,187,43,38), roi_back=(20,137,100,397), threshold=0.7, method="Template matching", file="./tasks/WantedQuests/wq/wq_wq_box.png")
 	# 小号追踪 
@@ -155,7 +155,7 @@ class WantedQuestsAssets:
 	# description 
 	I_GOTO_3 = RuleImage(roi_front=(979,373,88,48), roi_back=(979,373,88,46), threshold=0.8, method="Template matching", file="./tasks/WantedQuests/wq/wq_goto_3.png")
 	# description 
-	I_GOTO_4 = RuleImage(roi_front=(979,447,87,42), roi_back=(979,447,87,42), threshold=0.8, method="Template matching", file="./tasks/WantedQuests/wq/wq_goto_4.png")
+	I_GOTO_4 = RuleImage(roi_front=(979,447,88,42), roi_back=(979,447,87,42), threshold=0.8, method="Template matching", file="./tasks/WantedQuests/wq/wq_goto_4.png")
 	# 判断是否还有任务 
 	I_WQ_CHECK_TASK = RuleImage(roi_front=(110,154,21,125), roi_back=(73,122,69,459), threshold=0.8, method="Template matching", file="./tasks/WantedQuests/wq/wq_wq_check_task.png")
 	# 庭院悬赏任务界面 单个任务点开后 左上角是否追踪 

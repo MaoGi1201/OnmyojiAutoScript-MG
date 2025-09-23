@@ -19,8 +19,8 @@
   },
   {
     "itemName": "wq_text_1",
-    "roiFront": "67,233,52,32",
-    "roiBack": "67,233,52,32",
+    "roiFront": "20,233,52,32",
+    "roiBack": "20,233,52,32",
     "mode": "Single",
     "method": "Default",
     "keyword": "封印",
@@ -28,8 +28,8 @@
   },
   {
     "itemName": "wq_text_2",
-    "roiFront": "66,377,52,32",
-    "roiBack": "66,377,52,32",
+    "roiFront": "20,377,52,32",
+    "roiBack": "20,377,52,32",
     "mode": "Single",
     "method": "Default",
     "keyword": "封印",

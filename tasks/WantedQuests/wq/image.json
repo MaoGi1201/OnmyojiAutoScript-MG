@@ -20,7 +20,7 @@
   {
     "itemName": "trace_enable",
     "imageName": "wq_trace_enable.png",
-    "roiFront": "1097,588,101,70",
+    "roiFront": "1097,588,100,70",
     "roiBack": "1097,588,101,70",
     "method": "Template matching",
     "threshold": 0.8,
@@ -29,7 +29,7 @@
   {
     "itemName": "trace_disable",
     "imageName": "wq_trace_disable.png",
-    "roiFront": "1091,586,108,70",
+    "roiFront": "1091,586,108,80",
     "roiBack": "1091,586,108,70",
     "method": "Template matching",
     "threshold": 0.8,
@@ -92,7 +92,7 @@
   {
     "itemName": "goto_4",
     "imageName": "wq_goto_4.png",
-    "roiFront": "979,447,87,42",
+    "roiFront": "979,447,88,42",
     "roiBack": "979,447,87,42",
     "method": "Template matching",
     "threshold": 0.8,

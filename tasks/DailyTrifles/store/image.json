@@ -11,7 +11,7 @@
   {
     "itemName": "gift_recommend",
     "imageName": "store_gift_recommend.png",
-    "roiFront": "1183,454,53,64",
+    "roiFront": "1183,454,54,64",
     "roiBack": "1162,77,98,457",
     "method": "Template matching",
     "threshold": 0.8,
@@ -20,7 +20,7 @@
   {
     "itemName": "gift_sign",
     "imageName": "store_gift_sign.png",
-    "roiFront": "629,192,129,149",
+    "roiFront": "629,192,150,170",
     "roiBack": "130,129,891,473",
     "method": "Template matching",
     "threshold": 0.8,
