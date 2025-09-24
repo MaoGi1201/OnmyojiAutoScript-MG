@@ -322,8 +322,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.Component.CostumeShikigami.assets import CostumeShikigamiAssets
-    jade = CostumeShikigamiAssets.I_ST_SOULS_1
+    from tasks.GameUi.assets import GameUiAssets
+    jade = GameUiAssets.I_ACT_LIST_GOTO_ACT
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)
