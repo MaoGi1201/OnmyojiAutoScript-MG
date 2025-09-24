@@ -42,7 +42,7 @@ class GlobalGameAssets:
 	# 长一点的确认 
 	I_UI_CONFIRM = RuleImage(roi_front=(667,400,178,66), roi_back=(667,400,178,66), threshold=0.8, method="Template matching", file="./tasks/GlobalGame/ui/ui_ui_confirm.png")
 	# 长一点的取消 
-	I_UI_CANCEL = RuleImage(roi_front=(432,403,178,62), roi_back=(432,403,177,62), threshold=0.8, method="Template matching", file="./tasks/GlobalGame/ui/ui_ui_cancel.png")
+	I_UI_CANCEL = RuleImage(roi_front=(433,401,176,62), roi_back=(433,401,176,62), threshold=0.8, method="Template matching", file="./tasks/GlobalGame/ui/ui_ui_cancel.png")
 	# '获得奖励' 四个大字 
 	I_UI_REWARD = RuleImage(roi_front=(481,185,338,44), roi_back=(464,142,350,145), threshold=0.73, method="Template matching", file="./tasks/GlobalGame/ui/ui_ui_reward.png")
 	# 红色叉叉 
@@ -56,7 +56,7 @@ class GlobalGameAssets:
 	# 短一点的确认 
 	I_UI_CONFIRM_SAMLL = RuleImage(roi_front=(675,390,130,62), roi_back=(675,390,130,62), threshold=0.7, method="Template matching", file="./tasks/GlobalGame/ui/ui_ui_confirm_samll.png")
 	# 短一点的取消 
-	I_UI_CANCEL_SAMLL = RuleImage(roi_front=(469,390,130,62), roi_back=(469,390,130,62), threshold=0.7, method="Template matching", file="./tasks/GlobalGame/ui/ui_ui_cancel_samll.png")
+	I_UI_CANCEL_SAMLL = RuleImage(roi_front=(470,392,130,64), roi_back=(470,392,130,64), threshold=0.7, method="Template matching", file="./tasks/GlobalGame/ui/ui_ui_cancel_samll.png")
 	# 六道未勾选 
 	I_UI_UNCHECK = RuleImage(roi_front=(567,343,33,36), roi_back=(497,303,216,100), threshold=0.8, method="Template matching", file="./tasks/GlobalGame/ui/ui_ui_uncheck.png")
 	# 六道勾选 
