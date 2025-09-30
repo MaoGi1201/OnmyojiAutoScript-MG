@@ -107,7 +107,7 @@ class GameUiAssets:
 	# description 
 	I_TOWN_GOTO_DEMON_ENCOUNTER = RuleImage(roi_front=(617,135,51,75), roi_back=(232,121,873,100), threshold=0.7, method="Template matching", file="./tasks/GameUi/page/page_town_goto_demon_encounter.png")
 	# description 
-	I_TOWN_GOTO_HUNT = RuleImage(roi_front=(475,138,46,69), roi_back=(275,122,520,100), threshold=0.7, method="Template matching", file="./tasks/GameUi/page/page_town_goto_hunt.png")
+	I_TOWN_GOTO_HUNT = RuleImage(roi_front=(475,138,46,70), roi_back=(275,122,520,100), threshold=0.7, method="Template matching", file="./tasks/GameUi/page/page_town_goto_hunt.png")
 	# 协同对弈 
 	I_TOWN_GOTO_DRAFT_DUEL = RuleImage(roi_front=(335,159,55,72), roi_back=(170,145,567,100), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_town_goto_draft_duel.png")
 	# 百鬼奕 

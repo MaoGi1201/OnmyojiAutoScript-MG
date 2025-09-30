@@ -47,7 +47,7 @@
   {
     "itemName": "town_goto_hunt",
     "imageName": "page_town_goto_hunt.png",
-    "roiFront": "475,138,46,69",
+    "roiFront": "475,138,46,70",
     "roiBack": "275,122,520,100",
     "method": "Template matching",
     "threshold": 0.7,
