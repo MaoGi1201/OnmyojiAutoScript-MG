@@ -353,7 +353,7 @@ class ScriptTask(GameUi, BaseActivity, SwitchSoul, ActivityShikigamiAssets):
         self.ui_goto(page_main)
 
     def random_reward_click(self, exclude_bottom=False):
-        options = [self.C_RANDOM_LEFT, self.C_RANDOM_RIGHT, self.C_RANDOM_TOP]
+        options = [self.C_RANDOM_RIGHT, self.C_RANDOM_TOP]
         if not exclude_bottom:
             options.append(self.C_RANDOM_BOTTOM)
         target = random.choice(options)
@@ -366,7 +366,7 @@ class ScriptTask(GameUi, BaseActivity, SwitchSoul, ActivityShikigamiAssets):
         self.device.click_record_clear()
         logger.info("Start battle process")
 
-        for btn in (self.C_RANDOM_LEFT, self.C_RANDOM_RIGHT, self.C_RANDOM_TOP, self.C_RANDOM_BOTTOM):
+        for btn in (self.C_RANDOM_RIGHT, self.C_RANDOM_TOP, self.C_RANDOM_BOTTOM):
             btn.name = "BATTLE_RANDOM"
         ok_cnt, max_retry = 0, 5
         while 1:

@@ -322,8 +322,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.Component.GeneralBattle.assets import GeneralBattleAssets
-    jade = GeneralBattleAssets.I_REWARD_PURPLE_SNAKE_SKIN
+    from tasks.GlobalGame.assets import GlobalGameAssets
+    jade = GlobalGameAssets.I_UI_REWARD
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)
