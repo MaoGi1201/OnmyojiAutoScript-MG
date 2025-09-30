@@ -214,7 +214,7 @@ class GameUiAssets:
 
 	# List Rule Assets
 	# 活动列表页图像列表 
-	L_ACT_LIST_IMG = RuleList(folder="./tasks/GameUi/page", direction="vertical", mode="image", roi_back=(141,366,53,479), size=(46, 78), 
+	L_ACT_LIST_IMG = RuleList(folder="./tasks/GameUi/page", direction="vertical", mode="image", roi_back=(141,366,53,479), size=(48, 80), 
 					 array=["climb_act"])
 
 
