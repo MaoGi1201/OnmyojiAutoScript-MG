@@ -221,7 +221,7 @@ class GameUiAssets:
 	# List Rule Assets
 	# 活动列表页文字列表 
 	L_ACT_LIST_OCR = RuleList(folder="./tasks/GameUi/page", direction="vertical", mode="ocr", roi_back=(192,90,190,513), size=(186, 78), 
-					 array=[""])
+					 array=[" "])
 
 
 	# Image Rule Assets

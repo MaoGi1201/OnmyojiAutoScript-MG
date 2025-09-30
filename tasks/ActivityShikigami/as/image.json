@@ -164,7 +164,7 @@
   {
     "itemName": "check_battle_2",
     "imageName": "as_check_battle_2.png",
-    "roiFront": "93,12,128,46",
+    "roiFront": "90,18,126,34",
     "roiBack": "82,0,148,86",
     "method": "Template matching",
     "threshold": 0.8,
