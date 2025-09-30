@@ -1,14 +1,14 @@
 [
   {
     "itemName": "random_left",
-    "roiFront": "21,23,237,599",
-    "roiBack": "21,23,237,599",
+    "roiFront": "21,23,70,460",
+    "roiBack": "21,23,70,460",
     "description": "description"
   },
   {
     "itemName": "random_right",
-    "roiFront": "1047,55,218,638",
-    "roiBack": "1047,55,218,638",
+    "roiFront": "1047,55,210,460",
+    "roiBack": "1047,55,210,460",
     "description": "description"
   },
   {
