@@ -20,7 +20,7 @@
   {
     "itemName": "battle",
     "imageName": "as_battle.png",
-    "roiFront": "475,194,35,135",
+    "roiFront": "478,208,30,120",
     "roiBack": "454,107,154,315",
     "method": "Template matching",
     "threshold": 0.7,
@@ -65,7 +65,7 @@
   {
     "itemName": "fire",
     "imageName": "as_fire.png",
-    "roiFront": "1131,598,103,54",
+    "roiFront": "1128,594,102,56",
     "roiBack": "1113,564,136,111",
     "method": "Template matching",
     "threshold": 0.7,

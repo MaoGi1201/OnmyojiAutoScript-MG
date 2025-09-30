@@ -202,7 +202,7 @@ class GameUiAssets:
 	# 珍旅居 
 	I_CHECK_TRAVEL = RuleImage(roi_front=(1134,583,78,77), roi_back=(1134,583,78,77), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_travel.png")
 	# 活动列表页前往活动 
-	I_ACT_LIST_GOTO_ACT = RuleImage(roi_front=(970,504,170,62), roi_back=(925,458,272,166), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_act_list_goto_act.png")
+	I_ACT_LIST_GOTO_ACT = RuleImage(roi_front=(971,506,156,60), roi_back=(925,458,272,166), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_act_list_goto_act.png")
 	# 活动列表页标志 
 	I_CHECK_ACT_LIST = RuleImage(roi_front=(60,617,79,66), roi_back=(19,555,163,164), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_act_list.png")
 
@@ -214,14 +214,14 @@ class GameUiAssets:
 
 	# List Rule Assets
 	# 活动列表页图像列表 
-	L_ACT_LIST_IMG = RuleList(folder="./tasks/GameUi/page", direction="vertical", mode="image", roi_back=(140,105,53,479), size=(46, 78), 
+	L_ACT_LIST_IMG = RuleList(folder="./tasks/GameUi/page", direction="vertical", mode="image", roi_back=(141,366,53,479), size=(46, 78), 
 					 array=["climb_act"])
 
 
 	# List Rule Assets
 	# 活动列表页文字列表 
 	L_ACT_LIST_OCR = RuleList(folder="./tasks/GameUi/page", direction="vertical", mode="ocr", roi_back=(192,90,190,513), size=(186, 78), 
-					 array=["冰火永烬"])
+					 array=[""])
 
 
 	# Image Rule Assets

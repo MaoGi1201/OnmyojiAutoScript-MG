@@ -290,7 +290,7 @@ class GameUi(BaseTask, GameUiAssets):
         # png图像必须存放在page文件夹下
         # 添加其他活动列表页的活动时需同时添加下方map内容
         act_map = {
-            'page_climb_act': ('冰火永烬', 'page_act_list_climb_act')
+            'page_climb_act': ('', 'page_act_list_climb_act')
         }
         self.ui_get_current_page()
         self.ui_goto(page_act_list)
