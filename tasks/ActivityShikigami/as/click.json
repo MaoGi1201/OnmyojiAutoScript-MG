@@ -7,20 +7,20 @@
   },
   {
     "itemName": "random_right",
-    "roiFront": "1047,110,210,460",
-    "roiBack": "1047,110,210,460",
+    "roiFront": "1047,110,210,420",
+    "roiBack": "1047,110,210,420",
     "description": "description"
   },
   {
     "itemName": "random_top",
-    "roiFront": "85,65,1159,101",
-    "roiBack": "85,65,1159,101",
+    "roiFront": "85,75,1015,101",
+    "roiBack": "85,75,1015,101",
     "description": "description"
   },
   {
     "itemName": "random_bottom",
-    "roiFront": "182,539,1063,100",
-    "roiBack": "182,539,1063,100",
+    "roiFront": "185,561,633,50",
+    "roiBack": "185,561,633,50",
     "description": "description"
   },
   {
