@@ -13,8 +13,8 @@
   },
   {
     "itemName": "random_top",
-    "roiFront": "85,75,1015,101",
-    "roiBack": "85,75,1015,101",
+    "roiFront": "385,75,1015,101",
+    "roiBack": "385,75,1015,101",
     "description": "description"
   },
   {
