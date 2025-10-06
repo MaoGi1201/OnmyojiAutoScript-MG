@@ -2,7 +2,7 @@
   {
     "itemName": "main_goto_summon",
     "imageName": "page_main_goto_summon.png",
-    "roiFront": "1073,174,57,65",
+    "roiFront": "1071,172,48,70",
     "roiBack": "571,153,586,124",
     "method": "Template matching",
     "threshold": 0.8,
