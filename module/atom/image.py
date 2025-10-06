@@ -322,8 +322,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.Hunt.assets import HuntAssets
-    jade = HuntAssets.I_KIRIN_CHALLAGE
+    from tasks.MemoryScrolls.assets import MemoryScrollsAssets
+    jade = MemoryScrollsAssets.I_MS_FRAGMENT_S_VERIFICATION
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)

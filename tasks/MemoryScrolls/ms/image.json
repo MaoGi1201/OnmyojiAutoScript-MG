@@ -2,8 +2,8 @@
   {
     "itemName": "ms_enter",
     "imageName": "ms_ms_enter.png",
-    "roiFront": "1169,155,24,55",
-    "roiBack": "1169,155,24,55",
+    "roiFront": "1165,151,30,60",
+    "roiBack": "1165,151,30,60",
     "method": "Template matching",
     "threshold": 0.5,
     "description": "进入绘卷主界面"
@@ -38,8 +38,8 @@
   {
     "itemName": "ms_contribute",
     "imageName": "ms_ms_contribute.png",
-    "roiFront": "1013,583,125,35",
-    "roiBack": "1013,583,125,35",
+    "roiFront": "1007,577,134,46",
+    "roiBack": "1007,577,134,46",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "贡献碎片"
@@ -56,8 +56,8 @@
   {
     "itemName": "ms_complete",
     "imageName": "ms_ms_complete.png",
-    "roiFront": "397,593,100,21",
-    "roiBack": "397,593,100,21",
+    "roiFront": "396,592,100,22",
+    "roiBack": "396,592,100,22",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "绘卷100%"
@@ -65,7 +65,7 @@
   {
     "itemName": "ms_zero_s",
     "imageName": "ms_ms_zero_s.png",
-    "roiFront": "968,160,51,27",
+    "roiFront": "968,160,50,20",
     "roiBack": "968,160,51,27",
     "method": "Template matching",
     "threshold": 0.8,
@@ -74,7 +74,7 @@
   {
     "itemName": "ms_zero_m",
     "imageName": "ms_ms_zero_m.png",
-    "roiFront": "967,312,54,26",
+    "roiFront": "967,312,50,22",
     "roiBack": "967,312,54,26",
     "method": "Template matching",
     "threshold": 0.8,
@@ -83,8 +83,8 @@
   {
     "itemName": "ms_zero_l",
     "imageName": "ms_ms_zero_l.png",
-    "roiFront": "968,464,51,27",
-    "roiBack": "968,464,51,27",
+    "roiFront": "968,464,50,22",
+    "roiBack": "968,464,51,22",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "大绘卷不足"
@@ -110,8 +110,8 @@
   {
     "itemName": "ms_fragment_s_50",
     "imageName": "ms_ms_fragment_s_50.png",
-    "roiFront": "473,517,60,25",
-    "roiBack": "473,517,60,25",
+    "roiFront": "375,503,60,25",
+    "roiBack": "375,503,60,25",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "小碎片满50"
@@ -119,17 +119,17 @@
   {
     "itemName": "ms_fragment_s_verification",
     "imageName": "ms_ms_fragment_s_verification.png",
-    "roiFront": "522,318,100,100",
-    "roiBack": "522,318,100,100",
+    "roiFront": "522,266,100,100",
+    "roiBack": "522,266,100,100",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "查看小绘卷数量"
   },
   {
     "itemName": "ms_double_scrolls_enter",
     "imageName": "ms_ms_double_scrolls_enter.png",
-    "roiFront": "565,586,154,40",
-    "roiBack": "565,586,154,40",
+    "roiFront": "550,576,176,60",
+    "roiBack": "550,576,176,60",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "双绘卷进入按钮"
