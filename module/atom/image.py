@@ -323,7 +323,7 @@ if __name__ == "__main__":
     #print(jade.roi_back)
 
     from tasks.Hyakkiyakou.assets import HyakkiyakouAssets
-    jade = HyakkiyakouAssets.I_CHECK_INVITATION
+    jade = HyakkiyakouAssets.I_HSELECTED
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)

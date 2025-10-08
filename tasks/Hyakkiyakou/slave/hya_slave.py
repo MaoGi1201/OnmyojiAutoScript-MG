@@ -223,8 +223,8 @@ class HyaSlave(HyaDevice, HyaColor, HyakkiyakouAssets):
         if self.appear(self.I_ENSURE_RECALL):
             hya_recall_activity = True
             # 应该动态改roi而不是新开一个图
-            friend_buttons1 = [self.I_FRIEND_SAME_1_RECALL, self.I_FRIEND_RYOU_1, ]
-            friend_buttons2 = [self.I_FRIEND_SAME_2_RECALL, self.I_FRIEND_RYOU_2, ]
+            friend_buttons1 = [self.I_FRIEND_SAME_1_RECALL, self.I_FRIEND_RYOU_1_RECALL, ]
+            friend_buttons2 = [self.I_FRIEND_SAME_2_RECALL, self.I_FRIEND_RYOU_2_RECALL, ]
         else:
             hya_recall_activity = False
             friend_buttons1 = [self.I_FRIEND_SAME_1, self.I_FRIEND_RYOU_1]
@@ -240,14 +240,8 @@ class HyaSlave(HyaDevice, HyaColor, HyakkiyakouAssets):
                     else:
                         return True
                 case 1:
-                    logger.info('Invite remote friend')
-                    if not self._invite_friend(button1=friend_buttons1[1], button2=friend_buttons2[1], hya_recall_activity=hya_recall_activity):
-                        self.friend_state += 1
-                    else:
-                        return True
-                case 2:
                     logger.info('Invite guild friend')
-                    if not self._invite_friend(button1=friend_buttons1[2], button2=friend_buttons2[2], hya_recall_activity=hya_recall_activity):
+                    if not self._invite_friend(button1=friend_buttons1[1], button2=friend_buttons2[1], hya_recall_activity=hya_recall_activity):
                         self.friend_state += 1
                     else:
                         return True
@@ -265,8 +259,10 @@ class HyaSlave(HyaDevice, HyaColor, HyakkiyakouAssets):
             # 是否有召回活动
             if hya_recall_activity:
                 if self.click(self.C_FRIEND_1_RECALL, interval=2):
+                    logger.warning('Click Friend 1_recall')
                     continue
                 if self.click(self.C_FRIEND_2_RECALL, interval=3):
+                    logger.warning('Click Friend 2_recall')
                     continue
             else:
                 if self.click(self.C_FRIEND_1, interval=2):
