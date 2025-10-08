@@ -170,7 +170,7 @@ class GameUiAssets:
 	# 检查是否在图鉴 
 	I_CHECK_COLLECTION = RuleImage(roi_front=(380,620,100,100), roi_back=(380,620,100,100), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_collection.png")
 	# description 
-	I_BACK_Y = RuleImage(roi_front=(15,4,57,52), roi_back=(1,2,100,91), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_back_y.png")
+	I_BACK_Y = RuleImage(roi_front=(15,4,57,52), roi_back=(1,2,100,91), threshold=0.7, method="Template matching", file="./tasks/GameUi/page/page_back_y.png")
 	# description 
 	I_BACK_MALL = RuleImage(roi_front=(28,33,50,51), roi_back=(28,33,50,51), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_back_mall.png")
 	# description 

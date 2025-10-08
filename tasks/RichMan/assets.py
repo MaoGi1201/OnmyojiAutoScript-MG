@@ -134,13 +134,13 @@ class RichManAssets:
 
 	# Image Rule Assets
 	# 兑换随机御魂 
-	I_BL_BUY_SOULS = RuleImage(roi_front=(197,476,90,38), roi_back=(197,476,90,38), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/bondlings/bondlings_bl_buy_souls.png")
+	I_BL_BUY_SOULS = RuleImage(roi_front=(200,472,86,38), roi_back=(200,472,86,38), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/bondlings/bondlings_bl_buy_souls.png")
 	# 兑换契灵石头 
-	I_BL_BUY_STONE = RuleImage(roi_front=(493,472,89,42), roi_back=(493,472,89,42), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/bondlings/bondlings_bl_buy_stone.png")
+	I_BL_BUY_STONE = RuleImage(roi_front=(490,472,86,40), roi_back=(490,472,86,40), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/bondlings/bondlings_bl_buy_stone.png")
 	# 兑换高级盘 
-	I_BL_BUY_HIGH = RuleImage(roi_front=(779,473,89,42), roi_back=(779,473,89,42), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/bondlings/bondlings_bl_buy_high.png")
+	I_BL_BUY_HIGH = RuleImage(roi_front=(782,472,82,38), roi_back=(782,472,82,38), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/bondlings/bondlings_bl_buy_high.png")
 	# 兑换中级盘 
-	I_BL_BUY_MEDIUM = RuleImage(roi_front=(1079,476,93,40), roi_back=(1079,476,93,40), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/bondlings/bondlings_bl_buy_medium.png")
+	I_BL_BUY_MEDIUM = RuleImage(roi_front=(1076,474,88,38), roi_back=(1076,474,88,38), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/bondlings/bondlings_bl_buy_medium.png")
 
 
 	# Ocr Rule Assets
@@ -241,15 +241,15 @@ class RichManAssets:
 	# 寄售屋 
 	I_MALL_CONSIGNMENT_CHECK = RuleImage(roi_front=(12,166,100,390), roi_back=(12,166,100,390), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_consignment_check.png")
 	# 密卷屋 
-	I_MALL_SCCALES = RuleImage(roi_front=(470,649,68,49), roi_back=(427,621,147,92), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_sccales.png")
+	I_MALL_SCCALES = RuleImage(roi_front=(471,649,68,50), roi_back=(427,621,147,92), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_sccales.png")
 	# 密卷屋 
 	I_MALL_SCCALES_CHECK = RuleImage(roi_front=(409,253,100,100), roi_back=(409,253,100,100), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_sccales_check.png")
 	# description 
 	I_MALL_SCALES_SURE = RuleImage(roi_front=(1195,100,62,85), roi_back=(1195,100,62,85), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_scales_sure.png")
 	# 契灵商店 
-	I_MALL_BONDLINGS_SURE = RuleImage(roi_front=(1194,421,69,74), roi_back=(1194,421,69,74), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_bondlings_sure.png")
+	I_MALL_BONDLINGS_SURE = RuleImage(roi_front=(1189,425,70,70), roi_back=(1189,425,70,70), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_bondlings_sure.png")
 	# 已选中契灵商店 
-	I_MALL_BONDLINGS_ON = RuleImage(roi_front=(99,417,1021,37), roi_back=(99,417,1021,37), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_bondlings_on.png")
+	I_MALL_BONDLINGS_ON = RuleImage(roi_front=(983,419,120,32), roi_back=(983,419,120,32), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_bondlings_on.png")
 	# 契灵商店 
 	I_MALL_BONDLINGS_CHECK = RuleImage(roi_front=(355,186,34,104), roi_back=(355,186,34,104), threshold=0.8, method="Template matching", file="./tasks/RichMan/mall/navbar/navbar_mall_bondlings_check.png")
 	# 杂货铺 

@@ -100,7 +100,7 @@ class BondlingFairylandAssets:
 	# description 
 	I_BATTLE_FAIL = RuleImage(roi_front=(740,267,79,84), roi_back=(740,267,79,84), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/capture/battle_fail.png")
 	# 放弃结契 
-	I_BATTLE_FAIL_ABANDON = RuleImage(roi_front=(436,606,115,36), roi_back=(436,606,115,36), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/capture/battle_fail_abandon.png")
+	I_BATTLE_FAIL_ABANDON = RuleImage(roi_front=(425,599,116,48), roi_back=(425,599,116,48), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/capture/battle_fail_abandon.png")
 	# description 
 	I_BATTLE_SUCCESS = RuleImage(roi_front=(651,203,70,81), roi_back=(651,203,70,81), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/capture/battle_success.png")
 

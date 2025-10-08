@@ -37,21 +37,21 @@ class WantedQuestsAssets:
 	# 备用识别2 
 	O_WQ_NUM_UNKNOWN_2 = RuleOcr(roi=(34,406,65,24), area=(34,406,65,24), mode="Digit", method="Default", keyword="", name="wq_num_unknown_2")
 	# Ocr-description 
-	O_WQ_TYPE_1 = RuleOcr(roi=(544,238,55,36), area=(544,238,55,36), mode="Single", method="Default", keyword="", name="wq_type_1")
+	O_WQ_TYPE_1 = RuleOcr(roi=(544,248,55,36), area=(544,248,55,36), mode="Single", method="Default", keyword="", name="wq_type_1")
 	# Ocr-description 
-	O_WQ_TYPE_2 = RuleOcr(roi=(544,311,55,30), area=(544,311,55,30), mode="Single", method="Default", keyword="", name="wq_type_2")
+	O_WQ_TYPE_2 = RuleOcr(roi=(544,321,55,30), area=(544,321,55,30), mode="Single", method="Default", keyword="", name="wq_type_2")
 	# Ocr-description 
-	O_WQ_TYPE_3 = RuleOcr(roi=(544,382,54,30), area=(544,382,54,30), mode="Single", method="Default", keyword="", name="wq_type_3")
+	O_WQ_TYPE_3 = RuleOcr(roi=(544,392,54,30), area=(544,392,54,30), mode="Single", method="Default", keyword="", name="wq_type_3")
 	# Ocr-description 
-	O_WQ_TYPE_4 = RuleOcr(roi=(545,452,52,32), area=(545,452,52,32), mode="Single", method="Default", keyword="", name="wq_type_4")
+	O_WQ_TYPE_4 = RuleOcr(roi=(545,462,52,32), area=(545,462,52,32), mode="Single", method="Default", keyword="", name="wq_type_4")
 	# Ocr-description 
-	O_WQ_INFO_1 = RuleOcr(roi=(609,236,309,45), area=(609,236,309,45), mode="Single", method="Default", keyword="", name="wq_info_1")
+	O_WQ_INFO_1 = RuleOcr(roi=(609,246,309,45), area=(609,246,309,45), mode="Single", method="Default", keyword="", name="wq_info_1")
 	# Ocr-description 
-	O_WQ_INFO_2 = RuleOcr(roi=(612,308,298,41), area=(612,308,298,41), mode="Single", method="Default", keyword="", name="wq_info_2")
+	O_WQ_INFO_2 = RuleOcr(roi=(612,318,298,41), area=(612,318,298,41), mode="Single", method="Default", keyword="", name="wq_info_2")
 	# Ocr-description 
-	O_WQ_INFO_3 = RuleOcr(roi=(612,376,305,44), area=(612,376,305,44), mode="Single", method="Default", keyword="", name="wq_info_3")
+	O_WQ_INFO_3 = RuleOcr(roi=(612,386,305,44), area=(612,386,305,44), mode="Single", method="Default", keyword="", name="wq_info_3")
 	# Ocr-description 
-	O_WQ_INFO_4 = RuleOcr(roi=(613,446,315,44), area=(613,446,315,44), mode="Single", method="Default", keyword="", name="wq_info_4")
+	O_WQ_INFO_4 = RuleOcr(roi=(613,456,315,44), area=(613,456,315,44), mode="Single", method="Default", keyword="", name="wq_info_4")
 
 
 	# Image Rule Assets

@@ -322,8 +322,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.MemoryScrolls.assets import MemoryScrollsAssets
-    jade = MemoryScrollsAssets.I_MS_FRAGMENT_S_VERIFICATION
+    from tasks.BondlingFairyland.assets import BondlingFairylandAssets
+    jade = BondlingFairylandAssets.I_TOMB_GUARD
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)

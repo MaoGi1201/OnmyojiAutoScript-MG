@@ -65,8 +65,8 @@
   {
     "itemName": "battle_fail_abandon",
     "imageName": "battle_fail_abandon.png",
-    "roiFront": "436,606,115,36",
-    "roiBack": "436,606,115,36",
+    "roiFront": "425,599,116,48",
+    "roiBack": "425,599,116,48",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "放弃结契"
