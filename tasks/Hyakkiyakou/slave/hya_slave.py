@@ -216,19 +216,19 @@ class HyaSlave(HyaDevice, HyaColor, HyakkiyakouAssets):
 
     def invite_friend(self):
         logger.hr('Invite friend', 2)
-        self.ui_click(self.I_HINVITE, self.I_CHECK_INVITATION, interval=4)
+        self.ui_click(self.I_HINVITE, self.I_CHECK_INVITATION, interval=5)
         logger.info('Entry check invitation')
 
         # 是否有召回活动(星重聚阴阳师)
         if self.appear(self.I_ENSURE_RECALL):
             hya_recall_activity = True
             # 应该动态改roi而不是新开一个图
-            friend_buttons1 = [self.I_FRIEND_SAME_1_RECALL, self.I_FRIEND_REMOTE_1_RECALL, ]
-            friend_buttons2 = [self.I_FRIEND_SAME_2_RECALL, self.I_FRIEND_REMOTE_2_RECALL, ]
+            friend_buttons1 = [self.I_FRIEND_SAME_1_RECALL, self.I_FRIEND_RYOU_1, ]
+            friend_buttons2 = [self.I_FRIEND_SAME_2_RECALL, self.I_FRIEND_RYOU_2, ]
         else:
             hya_recall_activity = False
-            friend_buttons1 = [self.I_FRIEND_SAME_1, self.I_FRIEND_REMOTE_1, self.I_FRIEND_RYOU_1]
-            friend_buttons2 = [self.I_FRIEND_SAME_2, self.I_FRIEND_REMOTE_2, self.I_FRIEND_RYOU_2]
+            friend_buttons1 = [self.I_FRIEND_SAME_1, self.I_FRIEND_RYOU_1]
+            friend_buttons2 = [self.I_FRIEND_SAME_2, self.I_FRIEND_RYOU_2]
         # 依次邀请,
         self.friend_state = 0  # 不需要每一次都从0开始，可以固定一下
         while self.friend_state < 3:

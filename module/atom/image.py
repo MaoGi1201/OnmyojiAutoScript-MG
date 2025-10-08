@@ -322,8 +322,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.BondlingFairyland.assets import BondlingFairylandAssets
-    jade = BondlingFairylandAssets.I_TOMB_GUARD
+    from tasks.Hyakkiyakou.assets import HyakkiyakouAssets
+    jade = HyakkiyakouAssets.I_CHECK_INVITATION
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)

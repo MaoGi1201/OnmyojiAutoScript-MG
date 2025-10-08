@@ -6,16 +6,7 @@
     "roiBack": "349,124,83,50",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
-  },
-  {
-    "itemName": "friend_remote_1",
-    "imageName": "hya_friend_remote_1.png",
-    "roiFront": "444,127,81,46",
-    "roiBack": "444,127,81,46",
-    "method": "Template matching",
-    "threshold": 0.8,
-    "description": "description"
+    "description": "好友"
   },
   {
     "itemName": "friend_same_2",
@@ -24,31 +15,13 @@
     "roiBack": "355,125,80,47",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
-  },
-  {
-    "itemName": "friend_remote_2",
-    "imageName": "hya_friend_remote_2.png",
-    "roiFront": "440,122,89,56",
-    "roiBack": "440,122,89,56",
-    "method": "Template matching",
-    "threshold": 0.8,
-    "description": "description"
+    "description": "好友选中"
   },
   {
     "itemName": "friend_same_1_recall",
     "imageName": "hya_friend_same_1.png",
-    "roiFront": "167,123,106,62",
-    "roiBack": "154,105,132,94",
-    "method": "Template matching",
-    "threshold": 0.8,
-    "description": "回归活动使用"
-  },
-  {
-    "itemName": "friend_remote_1_recall",
-    "imageName": "hya_friend_remote_1.png",
-    "roiFront": "288,123,106,56",
-    "roiBack": "269,106,159,91",
+    "roiFront": "140,124,82,48",
+    "roiBack": "140,124,82,48",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "回归活动使用"
@@ -56,17 +29,26 @@
   {
     "itemName": "friend_same_2_recall",
     "imageName": "hya_friend_same_2.png",
-    "roiFront": "168,126,100,60",
-    "roiBack": "152,112,133,80",
+    "roiFront": "140,126,84,48",
+    "roiBack": "140,126,84,48",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "回归活动使用"
   },
   {
-    "itemName": "friend_remote_2_recall",
-    "imageName": "hya_friend_remote_2.png",
-    "roiFront": "296,122,100,56",
-    "roiBack": "278,115,131,81",
+    "itemName": "friend_ryou_1_recall",
+    "imageName": "hya_friend_ryou_1.png",
+    "roiFront": "326,124,84,48",
+    "roiBack": "269,106,159,91",
+    "method": "Template matching",
+    "threshold": 0.8,
+    "description": "回归活动使用"
+  },
+  {
+    "itemName": "friend_ryou_2_recall",
+    "imageName": "hya_friend_ryou_2.png",
+    "roiFront": "326,126,84,46",
+    "roiBack": "326,126,84,46",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "回归活动使用"
@@ -78,7 +60,7 @@
     "roiBack": "537,126,80,45",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "寮"
+    "description": "寮友"
   },
   {
     "itemName": "friend_ryou_2",
@@ -87,12 +69,12 @@
     "roiBack": "536,127,80,45",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "选中寮友"
   },
   {
     "itemName": "check_invitation",
     "imageName": "hya_check_invitation.png",
-    "roiFront": "629,140,272,57",
+    "roiFront": "424,140,264,54",
     "roiBack": "308,113,826,100",
     "method": "Template matching",
     "threshold": 0.8,
