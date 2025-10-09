@@ -1,0 +1,11 @@
+[
+   {
+    "itemName": "ms_score",
+    "roiFront": "1006,592,64,39",
+    "roiBack": "1006,592,64,39",
+    "mode": "DIGIT",
+    "method": "Default",
+    "keyword": "",
+    "description": "绘卷分数"
+  }
+]
