@@ -27,6 +27,7 @@ class MemoryScrollsConfig(ConfigBase):
     scroll_number: ScrollNumber = Field(default=ScrollNumber.ONE, description='scroll_number_help')
     auto_close_exploration: bool = Field(default=False, description='指定绘卷结束后，自动关闭探索任务，避免长时间无意义执行')
     notification_95: bool = Field(default=False, description='到达95%进度时发送通知')
+    target_score: int = Field(default=0, description='捐赠时的目标分数,达到后退出捐赠(0表示不启用)')
 
 class MemoryScrollsFinish(ConfigBase):
     auto_finish_exploration: bool = Field(default=False, description='小绘卷满50后自动结束当日探索任务')

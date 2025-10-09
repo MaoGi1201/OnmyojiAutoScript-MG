@@ -130,8 +130,17 @@ class ScriptTask(GameUi, MemoryScrollsAssets):
         捐献碎片
         :return: None
         """
+        con = self.config.memory_scrolls.memory_scrolls_config
         while 1:
             self.screenshot()
+
+        # 检查分数是否达到目标
+            if con.target_score > 0:
+                current_score = self.O_MS_SCORE.ocr(self.device.image)
+                if current_score >= con.target_score:
+                    logger.info(f'达到目标分数 {current_score}, 退出捐赠')
+                    return
+
             if self.appear(self.I_MS_ZERO_S) and self.appear(self.I_MS_ZERO_M) and self.appear(self.I_MS_ZERO_L):
                 logger.info('Memory Scrolls contribution is already completed')
                 return

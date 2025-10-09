@@ -62,6 +62,11 @@ class MemoryScrollsAssets:
 	I_MS_DOUBLE_SCROLLS_ENTER = RuleImage(roi_front=(550,576,176,60), roi_back=(550,576,176,60), threshold=0.8, method="Template matching", file="./tasks/MemoryScrolls/ms/ms_ms_double_scrolls_enter.png")
 
 
+	# Ocr Rule Assets
+	# 绘卷分数 
+	O_MS_SCORE = RuleOcr(roi=(1006,592,64,39), area=(1006,592,64,39), mode="DIGIT", method="Default", keyword="", name="ms_score")
+
+
 	# Swipe Rule Assets
 	# 小碎片拉满 
 	S_MS_SWIPE_S = RuleSwipe(roi_front=(838,199,37,27), roi_back=(1176,171,80,81), mode="default", name="ms_swipe_s")
