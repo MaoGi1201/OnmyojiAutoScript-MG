@@ -56,7 +56,7 @@ class GeneralInviteAssets:
 	# description 
 	I_FLAG_2_ON = RuleImage(roi_front=(471,123,62,24), roi_back=(471,123,62,24), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_2_on.png")
 	# description 
-	I_FLAG_2_OFF = RuleImage(roi_front=(583,127,58,21), roi_back=(583,127,58,21), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_2_off.png")
+	I_FLAG_2_OFF = RuleImage(roi_front=(472,127,58,21), roi_back=(472,127,58,21), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_2_off.png")
 	# description 
 	I_FLAG_3_ON = RuleImage(roi_front=(588,126,48,22), roi_back=(588,126,48,22), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralInvite/gi/gi_flag_3_on.png")
 	# description 

@@ -200,8 +200,8 @@
   {
     "itemName": "flag_2_off",
     "imageName": "gi_flag_2_off.png",
-    "roiFront": "583,127,58,21",
-    "roiBack": "583,127,58,21",
+    "roiFront": "472,127,58,21",
+    "roiBack": "472,127,58,21",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "description"
