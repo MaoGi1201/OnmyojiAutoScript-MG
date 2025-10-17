@@ -3,9 +3,9 @@
 # github https://github.com/runhey
 from cached_property import cached_property
 from datetime import datetime
-import requests
-import re
-import json
+#import requests
+#import re
+#import json
 
 from module.exception import TaskEnd
 from module.logger import logger
@@ -101,10 +101,11 @@ class ScriptTask(RightActivity, FrogBossAssets, GeneralBattleAssets):
                 click_image = self.I_BET_LEFT if count_left > count_right else self.I_BET_RIGHT
             case Strategy.Minority:
                 click_image = self.I_BET_LEFT if count_left < count_right else self.I_BET_RIGHT
-            case Strategy.Bilibili:
-                click_image = self.I_BET_LEFT if count_left > count_right else self.I_BET_RIGHT
-            case Strategy.Dashen:
-                click_image = self.get_dashen(count_left, count_right)
+            #case Strategy.Bilibili:
+            #    click_image = self.I_BET_LEFT if count_left > count_right else self.I_BET_RIGHT
+            #case Strategy.Dashen:
+            #    click_image = self.get_dashen(count_left, count_right)
+            # 删除大神和b站结果
             case _:
                 raise ValueError(f'Unknown bet mode: {self.config.model.frog_boss.frog_boss_config.strategy_frog}')
         logger.info(f'You strategy is {self.config.model.frog_boss.frog_boss_config.strategy_frog} and bet on {click_image}')
@@ -162,6 +163,7 @@ class ScriptTask(RightActivity, FrogBossAssets, GeneralBattleAssets):
         """
         获取博主的策略选择，整合多个博主的投注策略，并返回最终的下注建议
         :return: 'left' 或 'right' 的下注目标
+        """
         """
         logger.info('Fetching strategy from multiple Dashen UPer')
         # 定义正则表达式
@@ -303,6 +305,8 @@ class ScriptTask(RightActivity, FrogBossAssets, GeneralBattleAssets):
                 return self.I_BET_LEFT
             else:
                 return self.I_BET_RIGHT
+        """
+        pass
 
 
 if __name__ == '__main__':
