@@ -17,7 +17,7 @@ class Layer(str, Enum):
     ONE = '壹层'
     TWO = '贰层'
     THREE = '叁层'
-    FOUR = '肆层'
+    FOUR = '肆偕'
 
 class EternitySeaConfig(ConfigBase):
     # 身份
