@@ -92,7 +92,7 @@ class MoonSeaSkills(BaseTask, SixRealmsAssets):
         def check_refresh() -> bool:
             # 检测是否有钱刷新技能
             text = self.O_SKILL_REFRESH.ocr(self.device.image)
-            matches = re.search(f"剩\d+次", text)
+            matches = re.search(f"残\d+回", text)
             if matches:
                 refresh_time = int(matches.group()[1])
                 logger.info(f'Refresh time: {refresh_time}')

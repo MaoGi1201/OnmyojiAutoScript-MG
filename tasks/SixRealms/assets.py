@@ -112,7 +112,7 @@ class SixRealmsAssets:
 	# 有多少钱 
 	O_COIN_NUM = RuleOcr(roi=(1171,23,59,31), area=(1171,23,59,31), mode="Digit", method="Default", keyword="", name="coin_num")
 	# Ocr-description 
-	O_SKILL_REFRESH = RuleOcr(roi=(1172,684,100,31), area=(1172,684,100,31), mode="Single", method="Default", keyword="", name="skill_refresh")
+	O_SKILL_REFRESH = RuleOcr(roi=(1186,685,75,25), area=(1186,685,75,25), mode="Single", method="Default", keyword="", name="skill_refresh")
 
 
 	# Image Rule Assets

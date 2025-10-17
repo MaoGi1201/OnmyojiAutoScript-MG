@@ -28,8 +28,8 @@
   },
   {
     "itemName": "skill_refresh",
-    "roiFront": "1172,684,100,31",
-    "roiBack": "1172,684,100,31",
+    "roiFront": "1186,685,75,25",
+    "roiBack": "1186,685,75,25",
     "mode": "Single",
     "method": "Default",
     "keyword": "",

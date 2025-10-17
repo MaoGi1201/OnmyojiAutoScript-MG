@@ -38,7 +38,7 @@ class MoonSeaL101(MoonSeaSkills):
         # 只会点击一次
         logger.info('Refresh store')
         text = self.O_STORE_REFRESH_TIME.ocr(self.device.image)
-        matches = re.search(f"剩\d+次", text)
+        matches = re.search(f"残\d+回", text)
         if matches:
             refresh_time = int(matches.group()[1])
             logger.info(f'Refresh time: {refresh_time}')
