@@ -19,8 +19,8 @@
   },
   {
     "itemName": "card_num",
-    "roiFront": "800,421,150,33",
-    "roiBack": "800,421,150,33",
+    "roiFront": "820,421,160,33",
+    "roiBack": "820,421,160,33",
     "mode": "Single",
     "method": "Default",
     "keyword": "",

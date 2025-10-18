@@ -379,8 +379,8 @@ class ScriptTask(GameUi, ReplaceShikigami, KekkaiUtilizeAssets):
                 timer_click.reset()
                 x, y = check_image.coord()
                 self.device.click(x=x, y=y, control_name=check_image.name)
-        if friend == SelectFriendList.DIFFERENT_SERVER:
-            time.sleep(1)
+        #if friend == SelectFriendList.DIFFERENT_SERVER:
+            #time.sleep(1)
         time.sleep(0.5)
 
     @cached_property
@@ -428,14 +428,14 @@ class ScriptTask(GameUi, ReplaceShikigami, KekkaiUtilizeAssets):
         """
         logger.hr('Start utilize')
         if self.first_utilize:
-            self.swipe(self.S_U_END, interval=3)
+            #self.swipe(self.S_U_END, interval=3)
             self.first_utilize = False
             if friend == SelectFriendList.SAME_SERVER:
-                self.switch_friend_list(SelectFriendList.DIFFERENT_SERVER)
+                #self.switch_friend_list(SelectFriendList.DIFFERENT_SERVER)
                 self.switch_friend_list(SelectFriendList.SAME_SERVER)
-            else:
-                self.switch_friend_list(SelectFriendList.SAME_SERVER)
-                self.switch_friend_list(SelectFriendList.DIFFERENT_SERVER)
+            #else:
+                #self.switch_friend_list(SelectFriendList.SAME_SERVER)
+                #self.switch_friend_list(SelectFriendList.DIFFERENT_SERVER)
         else:
             self.switch_friend_list(friend)
 
@@ -680,7 +680,7 @@ class ScriptTask(GameUi, ReplaceShikigami, KekkaiUtilizeAssets):
         # logger.info(f'OCR原始结果: {raw_text}')
 
         # 判断结界卡类型
-        if any(c in raw_text for c in ['体', 'カ', '力']):
+        if any(c in raw_text for c in ['夕','三', '十', '力']):
             card_type = '斗鱼'
         elif any(c in raw_text for c in ['勾', '玉']):
             card_type = '太鼓'
