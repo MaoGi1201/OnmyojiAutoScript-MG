@@ -29,29 +29,29 @@
   {
     "itemName": "a_card_all",
     "imageName": "a_a_card_all.png",
-    "roiFront": "357,175,167,59",
-    "roiBack": "357,175,167,59",
+    "roiFront": "355,173,168,56",
+    "roiBack": "355,173,168,56",
     "method": "Template matching",
     "threshold": 0.9,
-    "description": "description"
+    "description": "全部"
   },
   {
     "itemName": "a_card_kaiko",
     "imageName": "a_a_card_kaiko.png",
-    "roiFront": "392,251,112,38",
-    "roiBack": "392,251,112,38",
+    "roiFront": "354,236,170,60",
+    "roiBack": "354,236,170,60",
     "method": "Template matching",
     "threshold": 0.9,
-    "description": "description"
+    "description": "太鼓"
   },
   {
     "itemName": "a_card_fish",
     "imageName": "a_a_card_fish.png",
-    "roiFront": "388,318,118,37",
-    "roiBack": "388,318,118,37",
+    "roiFront": "355,303,168,58",
+    "roiBack": "355,303,168,58",
     "method": "Template matching",
     "threshold": 0.9,
-    "description": "description"
+    "description": "斗鱼"
   },
   {
     "itemName": "a_card_room",
@@ -60,7 +60,7 @@
     "roiBack": "355,370,167,59",
     "method": "Template matching",
     "threshold": 0.9,
-    "description": "description"
+    "description": "伞室内"
   },
   {
     "itemName": "a_card_moon",
@@ -69,7 +69,7 @@
     "roiBack": "354,439,171,59",
     "method": "Template matching",
     "threshold": 0.9,
-    "description": "description"
+    "description": "太阴符咒"
   },
   {
     "itemName": "a_card_other",
