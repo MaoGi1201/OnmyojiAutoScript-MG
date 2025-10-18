@@ -36,15 +36,15 @@ class KekkaiActivationAssets:
 	I_A_HARVEST_EXP = RuleImage(roi_front=(891,153,49,43), roi_back=(865,121,100,100), threshold=0.8, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_harvest_exp.png")
 	# "结界卡" 
 	I_A_CARDS_REALM = RuleImage(roi_front=(0,0,100,100), roi_back=(0,0,100,100), threshold=0.8, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_cards_realm.png")
-	# description 
-	I_A_CARD_ALL = RuleImage(roi_front=(357,175,167,59), roi_back=(357,175,167,59), threshold=0.9, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_card_all.png")
-	# description 
-	I_A_CARD_KAIKO = RuleImage(roi_front=(392,251,112,38), roi_back=(392,251,112,38), threshold=0.9, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_card_kaiko.png")
-	# description 
-	I_A_CARD_FISH = RuleImage(roi_front=(388,318,118,37), roi_back=(388,318,118,37), threshold=0.9, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_card_fish.png")
-	# description 
+	# 全部 
+	I_A_CARD_ALL = RuleImage(roi_front=(355,173,168,56), roi_back=(355,173,168,56), threshold=0.9, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_card_all.png")
+	# 太鼓 
+	I_A_CARD_KAIKO = RuleImage(roi_front=(354,236,170,60), roi_back=(354,236,170,60), threshold=0.9, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_card_kaiko.png")
+	# 斗鱼 
+	I_A_CARD_FISH = RuleImage(roi_front=(355,303,168,58), roi_back=(355,303,168,58), threshold=0.9, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_card_fish.png")
+	# 伞室内 
 	I_A_CARD_ROOM = RuleImage(roi_front=(355,370,167,59), roi_back=(355,370,167,59), threshold=0.9, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_card_room.png")
-	# description 
+	# 太阴符咒 
 	I_A_CARD_MOON = RuleImage(roi_front=(354,439,171,59), roi_back=(354,439,171,59), threshold=0.9, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_card_moon.png")
 	# 其他变异 
 	I_A_CARD_OTHER = RuleImage(roi_front=(353,502,173,61), roi_back=(353,502,173,61), threshold=0.9, method="Template matching", file="./tasks/KekkaiActivation/a/a_a_card_other.png")
