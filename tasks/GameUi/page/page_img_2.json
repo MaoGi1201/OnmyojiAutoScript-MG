@@ -92,7 +92,7 @@
   {
     "itemName": "check_hunt",
     "imageName": "page_check_hunt.png",
-    "roiFront": "575,30,46,25",
+    "roiFront": "575,30,52,30",
     "roiBack": "553,1,81,68",
     "method": "Template matching",
     "threshold": 0.7,

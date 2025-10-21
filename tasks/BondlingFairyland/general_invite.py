@@ -266,7 +266,7 @@ class GeneralInvite(BaseTask, BondlingFairylandAssets, GeneralInviteAssets):
 
     @cached_property
     def friend_class(self) -> list[str]:
-        return ['好友', '最近', '寮友', '蔡友', '察友','友速','友达']
+        return ['好友', '最近', '寮友', '蔡友', '察友','友速','友达','友追']
 
     def detect_select(self, name: str = None) -> bool:
         """
@@ -324,8 +324,9 @@ class GeneralInvite(BaseTask, BondlingFairylandAssets, GeneralInviteAssets):
         if list_1 is not None and list_1 != '' and list_1 in self.friend_class:
             friend_class.append(list_1)
         for i in range(len(friend_class)):
-            if friend_class[i] == '友达':
+            if  friend_class[i] == '友达':
                 friend_class[i] = '友速'
+                friend_class[i] = '友追'
 
         logger.info(f'Friend class: {friend_class}')
 

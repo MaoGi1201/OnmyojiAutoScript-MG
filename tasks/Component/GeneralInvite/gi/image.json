@@ -371,8 +371,8 @@
   {
     "itemName": "i_accept_jy",
     "imageName": "gi_i_accept_jy.png",
-    "roiFront": "248,258,46,25",
-    "roiBack": "231,205,75,326",
+    "roiFront": "188,260,46,26",
+    "roiBack": "188,260,46,26",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "识别到寄养邀请"

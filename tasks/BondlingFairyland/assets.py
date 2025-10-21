@@ -48,13 +48,13 @@ class BondlingFairylandAssets:
 
 	# Image Rule Assets
 	# 挑战 
-	I_BALL_FIRE = RuleImage(roi_front=(1149,575,100,100), roi_back=(1149,575,100,100), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/ball/ball_ball_fire.png")
+	I_BALL_FIRE = RuleImage(roi_front=(1140,560,100,100), roi_back=(1140,560,100,100), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/ball/ball_ball_fire.png")
 	# 探查未锁 
 	I_BALL_UNLOCK = RuleImage(roi_front=(714,637,31,33), roi_back=(714,637,31,33), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/ball/ball_ball_unlock.png")
 	# 探查锁 
 	I_BALL_LOCK = RuleImage(roi_front=(715,637,29,32), roi_back=(715,637,29,32), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/ball/ball_ball_lock.png")
 	# 点击式神录 
-	I_BALL_RECORDS = RuleImage(roi_front=(856,566,38,39), roi_back=(856,566,38,39), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/ball/ball_ball_records.png")
+	I_BALL_RECORDS = RuleImage(roi_front=(862,562,38,39), roi_back=(862,562,38,39), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/ball/ball_ball_records.png")
 	# 求援 
 	I_BALL_HELP = RuleImage(roi_front=(963,581,100,100), roi_back=(963,581,100,100), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/ball/ball_ball_help.png")
 	# 契灵创建队伍 
@@ -62,14 +62,14 @@ class BondlingFairylandAssets:
 
 
 	# Image Rule Assets
-	# description 
+	# 探查 
 	I_BF_SEARSH = RuleImage(roi_front=(1133,577,100,100), roi_back=(1133,577,100,100), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/bf/bf_bf_searsh.png")
-	# description 
+	# 上锁 
 	I_BF_LOCK = RuleImage(roi_front=(826,653,24,26), roi_back=(826,653,24,26), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/bf/bf_bf_lock.png")
-	# description 
+	# 未上锁 
 	I_BF_UNLOCK = RuleImage(roi_front=(822,651,28,28), roi_back=(822,651,28,28), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/bf/bf_bf_unlock.png")
-	# description 
-	I_BF_STORE = RuleImage(roi_front=(261,632,57,57), roi_back=(261,632,57,57), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/bf/bf_bf_store.png")
+	# 契忆商店 
+	I_BF_STORE = RuleImage(roi_front=(266,624,58,58), roi_back=(266,624,58,58), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/bf/bf_bf_store.png")
 	# 点击式神录 
 	I_BF_RECORDS = RuleImage(roi_front=(1028,566,43,42), roi_back=(1028,566,43,42), threshold=0.8, method="Template matching", file="./tasks/BondlingFairyland/bf/bf_bf_records.png")
 	# 左边第一个球：截屏的时候是火灵 
