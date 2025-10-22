@@ -6,12 +6,12 @@
     "roiBack": "1174,135,78,320",
     "method": "Template matching",
     "threshold": 0.7,
-    "description": "description"
+    "description": "进入竞猜"
   },
   {
     "itemName": "frog_boss_rest",
     "imageName": "fb_frog_boss_rest.png",
-    "roiFront": "510,274,169,64",
+    "roiFront": "510,274,168,68",
     "roiBack": "492,260,220,113",
     "method": "Template matching",
     "threshold": 0.8,

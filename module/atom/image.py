@@ -355,8 +355,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.Component.GeneralInvite.assets import GeneralInviteAssets
-    jade = GeneralInviteAssets.I_I_ACCEPT_JY
+    from tasks.FrogBoss.assets import FrogBossAssets
+    jade = FrogBossAssets.I_FROG_BOSS_REST
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)
