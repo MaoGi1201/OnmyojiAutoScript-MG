@@ -19,6 +19,7 @@ from tasks.Component.GeneralBattle.assets import GeneralBattleAssets
 from tasks.Component.config_base import TimeDelta
 from tasks.FrogBoss.assets import FrogBossAssets
 from tasks.FrogBoss.config import Strategy
+from toolkit.Lib.asyncio import sleep
 
 
 class ScriptTask(RightActivity, FrogBossAssets, GeneralBattleAssets):

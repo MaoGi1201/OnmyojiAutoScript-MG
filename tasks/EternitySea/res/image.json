@@ -30,7 +30,7 @@
     "itemName": "eternitysea_unlock",
     "imageName": "res_eternitysea_unlock.png",
     "roiFront": "556,559,35,34",
-    "roiBack": "556,560,35,34",
+    "roiBack": "556,559,35,34",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "开锁"
@@ -39,7 +39,7 @@
     "itemName": "neweternitysea_lock",
     "imageName": "res_neweternitysea_lock.png",
     "roiFront": "556,559,31,37",
-    "roiBack": "556,560,31,37",
+    "roiBack": "556,559,31,37",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "关锁"

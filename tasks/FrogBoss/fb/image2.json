@@ -11,8 +11,8 @@
   {
     "itemName": "frog_boss_rest",
     "imageName": "fb_frog_boss_rest.png",
-    "roiFront": "510,274,168,68",
-    "roiBack": "492,260,220,113",
+    "roiFront": "527,277,154,52",
+    "roiBack": "510,260,220,113",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "休息中"
