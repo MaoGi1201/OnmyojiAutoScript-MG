@@ -3,14 +3,14 @@
 # github https://github.com/runhey
 from module.atom.ocr import RuleOcr
 from module.atom.image import RuleImage
+from module.base.timer import Timer
 from module.logger import logger
 
 from tasks.base_task import BaseTask
 from tasks.Utils.config_enum import ShikigamiClass
 from tasks.Component.ReplaceShikigami.assets import ReplaceShikigamiAssets
-from toolkit.Lib.asyncio import sleep
-
-
+import time
+from module.exception import GameStuckError
 class ReplaceShikigami(BaseTask, ReplaceShikigamiAssets):
 
 
@@ -86,20 +86,36 @@ class ReplaceShikigami(BaseTask, ReplaceShikigamiAssets):
                         6: self.C_SHIKIGAMI_LEFT_6,
                         7: self.C_SHIKIGAMI_LEFT_7}
         click_match = _click_match[shikigami_order]
+        TIMEOUT_SEC = 120          # 超时时长（秒）
+        start_time = time.time()   # 记录起始时间
+        click_interval_timer = Timer(1.5).start()  # 点击选择式神间隔
+        clicked = False
         while 1:
+            # ——1. 先做超时检查——
+            if time.time() - start_time > TIMEOUT_SEC:
+                logger.error('寄养等待超过 2 分钟，自动退出')
+                raise GameStuckError('寄养超时（>120 s）')
+            # 恢复点击操作
+            if click_interval_timer.reached_and_reset():
+                clicked = False
+            
             self.screenshot()
+
             if not self.appear(stop_image):
                 break
-            if self.appear_then_click(self.I_U_CONFIRM_SMALL, interval=2):
+
+            if self.appear_then_click(self.I_U_CONFIRM_SMALL, interval=0.5):
+                clicked = False  # 点击了确认, 恢复选式神的操作
                 continue
 
-            if self.click(click_match, interval=1.5):
-                sleep(1.0)  # 点击后等待可能的确认界面出现
+            # 与下方点击第7个式神操作互斥, 防止确认按钮还没有出现被下方取消掉
+            if not clicked and self.click(click_match, interval=1.5):
+                clicked = True
                 continue
-            if self.click(_click_match[6], interval=4.5):
+            if not clicked and self.click(_click_match[6], interval=4.5):
                 # 有的时候第七个格子被占用到寄养上去了
                 # 导致一直无法选上
-                sleep(1.0)  # 点击后等待可能的确认界面出现
+                clicked = True
                 continue
             if self.appear_then_click(self.I_U_CIRCLE_ALTERNATE, interval=2.5):
                 self.appear_then_click(self.I_U_CONFIRM_ALTERNATE, interval=1.5)
