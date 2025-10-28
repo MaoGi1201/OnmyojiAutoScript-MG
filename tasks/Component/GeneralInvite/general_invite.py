@@ -179,17 +179,15 @@ class GeneralInvite(BaseTask, GeneralInviteAssets):
         logger.info('Exit room')
         while 1:
             self.screenshot()
-            # 如果已经不在房间内，且没有确认按钮和返回按钮，说明已经退出成功
-            if not self.is_in_room() and not self.appear(self.I_GI_SURE) and not self.appear(self.I_BACK_YELLOW) and not self.appear(self.I_BACK_YELLOW_SEA):
+            if not self.is_in_room() and \
+                    not self.appear_then_click(self.I_GI_SURE, interval=0.8) and \
+                    not self.appear(self.I_BACK_YELLOW):
                 break
-            # 优先处理确认按钮
             if self.appear_then_click(self.I_GI_SURE, interval=0.5):
                 continue
-            # 如果没有确认按钮，则点击返回按钮
             if not self.appear(self.I_GI_SURE) and self.appear_then_click(self.I_BACK_YELLOW, interval=0.8):
                 self.wait_until_appear(self.I_GI_SURE, wait_time=0.8)
                 continue
-            # 处理永生之海的返回按钮
             if not self.appear(self.I_GI_SURE) and self.appear_then_click(self.I_BACK_YELLOW_SEA, interval=0.8):
                 self.wait_until_appear(self.I_GI_SURE, wait_time=0.8)
                 continue
