@@ -36,8 +36,8 @@ def detect_ocr(file: str, target: RuleOcr):
 # 图片文件路径 可以是相对路径
 IMAGE_FILE = r"C:\Users\MG\Desktop\4.png"
 if __name__ == '__main__':
-    from tasks.BondlingFairyland.assets import BondlingFairylandAssets
-    targe = BondlingFairylandAssets.O_FRIEND
+    from tasks.CollectiveMissions.assets import CollectiveMissionsAssets
+    targe = CollectiveMissionsAssets.O_CM_1
     print(detect_ocr(IMAGE_FILE, targe))
 
     # ocr demo

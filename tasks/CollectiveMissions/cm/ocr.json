@@ -6,7 +6,7 @@
     "mode": "Single",
     "method": "Default",
     "keyword": "",
-    "description": "Ocr-description"
+    "description": "任务前称"
   },
   {
     "itemName": "cm_2",
@@ -15,7 +15,7 @@
     "mode": "Single",
     "method": "Default",
     "keyword": "",
-    "description": "Ocr-description"
+    "description": "任务名"
   },
   {
     "itemName": "cm_3",
@@ -55,8 +55,8 @@
   },
   {
     "itemName": "cm_number",
-    "roiFront": "1105,564,60,28",
-    "roiBack": "1105,564,60,28",
+    "roiFront": "1105,564,65,28",
+    "roiBack": "1105,564,65,28",
     "mode": "DigitCounter",
     "method": "Default",
     "keyword": "",
