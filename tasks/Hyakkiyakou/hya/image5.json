@@ -2,8 +2,8 @@
   {
     "itemName": "friend_same_1",
     "imageName": "hya_friend_same_1.png",
-    "roiFront": "349,124,83,50",
-    "roiBack": "349,124,83,50",
+    "roiFront": "348,124,82,48",
+    "roiBack": "348,124,82,48",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "好友"
@@ -11,8 +11,8 @@
   {
     "itemName": "friend_same_2",
     "imageName": "hya_friend_same_2.png",
-    "roiFront": "355,125,80,47",
-    "roiBack": "355,125,80,47",
+    "roiFront": "348,126,84,48",
+    "roiBack": "348,126,84,48",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "好友选中"
