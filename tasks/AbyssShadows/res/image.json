@@ -74,8 +74,8 @@
   {
     "itemName": "abyss_shadows",
     "imageName": "res_abyss_shadows.png",
-    "roiFront": "206,484,108,38",
-    "roiBack": "206,484,108,38",
+    "roiFront": "206,473,108,38",
+    "roiBack": "206,473,108,38",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "狭间暗域"

@@ -541,5 +541,5 @@ class Script:
 
 
 if __name__ == "__main__":
-    script = Script("oas1")
+    script = Script("YZJ-HJ")
     script.loop()
