@@ -40,7 +40,7 @@ class CollectiveMissionsAssets:
 	I_CM_ADD_4 = RuleImage(roi_front=(904,510,47,47), roi_back=(904,510,47,47), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_add_4.png")
 	# 领取奖励 
 	I_CM_REWARDS = RuleImage(roi_front=(567,463,145,60), roi_back=(200,458,914,88), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_rewards.png")
-	# description 
+	# 刷新 
 	I_CM_SWITCH = RuleImage(roi_front=(414,478,48,58), roi_back=(310,453,282,114), threshold=0.8, method="Template matching", file="./tasks/CollectiveMissions/cm/cm_cm_switch.png")
 
 
@@ -58,7 +58,7 @@ class CollectiveMissionsAssets:
 	# Ocr-description 
 	O_CM_6 = RuleOcr(roi=(1002,133,91,42), area=(1002,133,91,42), mode="Single", method="Default", keyword="", name="cm_6")
 	# 记录已完成的数量 
-	O_CM_NUMBER = RuleOcr(roi=(1105,564,65,28), area=(1105,564,65,28), mode="DigitCounter", method="Default", keyword="", name="cm_number")
+	O_CM_NUMBER = RuleOcr(roi=(1113,564,65,28), area=(1113,564,65,28), mode="DigitCounter", method="Default", keyword="", name="cm_number")
 	# 材料的数量 
 	O_CM_1_MATTER = RuleOcr(roi=(427,172,100,27), area=(427,172,100,27), mode="DigitCounter", method="Default", keyword="", name="cm_1_matter")
 	# Ocr-description 

@@ -96,6 +96,6 @@
     "roiBack": "310,453,282,114",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "description"
+    "description": "刷新"
   }
 ]

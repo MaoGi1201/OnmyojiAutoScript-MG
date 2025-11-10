@@ -11,8 +11,8 @@
   {
     "itemName": "ms_main",
     "imageName": "ms_ms_main.png",
-    "roiFront": "689,3,40,50",
-    "roiBack": "689,3,40,50",
+    "roiFront": "692,2,40,50",
+    "roiBack": "692,2,40,50",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "判断是否处于绘卷主界面"
