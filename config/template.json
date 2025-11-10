@@ -1169,6 +1169,7 @@
         "auto_contribute_memoryscrolls": true,
         "ranking": 80,
         "score": 200,
+        "double_scrolls": "默认绘卷一",
         "scroll_number": "卷一",
         "close_exploration": false,
         "close_memoryscrolls": false
