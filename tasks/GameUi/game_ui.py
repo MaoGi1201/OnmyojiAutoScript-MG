@@ -38,14 +38,14 @@ class GameUi(BaseTask, GameUiAssets):
         page_duel, page_demon_encounter, page_hunt, page_hunt_kirin, page_draft_duel, page_hyakkisen,
         # 庭院里面的
         page_shikigami_records, page_onmyodo, page_friends, page_daily, page_mall, page_guild, page_team,
-        page_collection, page_act_list,
+        page_realm,page_collection, page_act_list,
         # 爬塔活动
         page_act_list_climb_act, page_climb_act, page_climb_act_2, page_climb_act_pass, page_climb_act_ap,
         page_climb_act_boss, page_climb_act_buff, page_climb_act_ap100,
         # 战斗
         page_battle_auto, page_battle_hand, page_reward, page_failed
     ]
-    ui_close = [GameUiAssets.I_BACK_MALL, GeneralBattleAssets.I_CONFIRM,
+    ui_close = [GameUiAssets.I_BACK_MALL, GeneralBattleAssets.I_CONFIRM,KekkaiUtilizeAssets.I_PLANT_TREE_CLOSE,
                 BaseTask.I_UI_BACK_RED, BaseTask.I_UI_BACK_YELLOW, BaseTask.I_UI_BACK_BLUE,
                 GameUiAssets.I_BACK_FRIENDS, GameUiAssets.I_BACK_DAILY,
                 GameUiAssets.I_REALM_RAID_GOTO_EXPLORATION,

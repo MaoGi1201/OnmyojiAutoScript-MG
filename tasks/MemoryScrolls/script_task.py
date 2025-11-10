@@ -34,7 +34,29 @@ class ScriptTask(GameUi, MemoryScrollsAssets):
     
     def goto_memoryscrolls_main(self, con):
         # 循环寻找&点击绘卷入口
-        self.ui_click(self.I_MS_ENTER, self.I_MS_MAIN)
+        if self.wait_until_appear(self.I_MS_ENTER, wait_time=30):
+            while 1:
+                self.screenshot()
+                if self.appear(self.I_MS_FRAGMENT_S):
+                    logger.info('Entered Memory Scrolls main page')
+                    break
+                # 周年庆等时期会使用双绘卷
+                if self.appear(self.I_MS_DOUBLE_SCROLLS_ENTER):
+                    logger.info('Using Double Memory Scrolls')
+                    if con.double_scrolls == con.double_scrolls.ONE:
+                        logger.info('Choose Double Memory Scrolls One')
+                    else:
+                        logger.info('Choose Double Memory Scrolls Two')
+                        self.click(self.C_MS_DOUBLE_SCROLLS_2, interval=1)
+                    if self.appear_then_click(self.I_MS_DOUBLE_SCROLLS_ENTER, interval=1):
+                        continue
+                # 右上角绘卷铃铛
+                if self.appear_then_click(self.I_MS_ENTER, interval=1):
+                    continue
+        else:
+            logger.error('Failed to enter Memory Scrolls main page')
+            self.set_next_run(task='MemoryScrolls', success=False)
+            raise TaskEnd
         # 如果每天只刷小绘卷50，则先检测小绘卷数量
         if self.config.memory_scrolls.memory_scrolls_finish.auto_finish_exploration:
             self.check_ms_s_50()

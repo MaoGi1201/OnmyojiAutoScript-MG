@@ -4,6 +4,7 @@ import traceback
 from module.atom.click import RuleClick
 
 from tasks.GameUi.assets import GameUiAssets as G
+from tasks.KekkaiUtilize.assets import KekkaiUtilizeAssets
 from tasks.Restart.assets import RestartAssets
 from tasks.base_task import BaseTask as BT
 from tasks.RyouToppa.assets import RyouToppaAssets
@@ -163,6 +164,11 @@ page_main.link(button=G.I_MAIN_GOTO_MALL, destination=page_mall)
 page_guild = Page(G.I_CHECK_GUILD)
 page_guild.link(button=G.I_BACK_Y, destination=page_main)
 page_main.link(button=G.I_MAIN_GOTO_GUILD, destination=page_guild)
+# 结界
+page_realm = Page(G.I_CHECK_REALM_SHIN)
+page_realm.additional = [KekkaiUtilizeAssets.I_PLANT_TREE_CLOSE]
+page_realm.link(button=G.I_BACK_BLUE, destination=page_guild)
+page_guild.link(button=G.I_CHECK_GUILD, destination=page_realm)
 # 组队 team
 page_team = Page(G.I_CHECK_TEAM)
 page_team.link(button=G.I_BACK_Y, destination=page_main)

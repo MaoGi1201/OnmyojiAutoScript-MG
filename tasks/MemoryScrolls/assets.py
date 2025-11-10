@@ -25,6 +25,8 @@ class MemoryScrollsAssets:
 	C_MS_SCROLL_6 = RuleClick(roi_front=(835,389,303,204), roi_back=(835,389,303,204), name="ms_scroll_6")
 	# 贡献完成跳结算 
 	C_MS_CONTRIBUTED = RuleClick(roi_front=(108,509,993,190), roi_back=(108,509,993,190), name="ms_contributed")
+	# 双绘卷之二 
+	C_MS_DOUBLE_SCROLLS_2 = RuleClick(roi_front=(714,128,464,397), roi_back=(714,128,464,397), name="ms_double_scrolls_2")
 
 
 	# Image Rule Assets
