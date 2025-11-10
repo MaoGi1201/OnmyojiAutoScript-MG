@@ -8,6 +8,9 @@ from pydantic import BaseModel, Field
 from enum import Enum
 from tasks.Component.config_scheduler import Scheduler
 from tasks.Component.config_base import ConfigBase, Time
+class DoubleScrolls(str, Enum):
+    ONE = "默认绘卷一"
+    TWO = "双绘卷之二"
 
 class ScrollNumber(str, Enum):
     ONE = "卷一"
@@ -21,6 +24,7 @@ class MemoryScrollsConfig(ConfigBase):
     auto_contribute_memoryscrolls: bool = Field(default=True, description='自动贡献绘卷碎片')
     ranking: int = Field(default=80, description='排名多少前不进行贡献,0默认贡献')
     score: int = Field(default=200, description='一次贡献指定分数,0默认全部贡献')
+    double_scrolls: DoubleScrolls = Field(default=DoubleScrolls.ONE, description='double_scrolls_help')
     scroll_number: ScrollNumber = Field(default=ScrollNumber.ONE, description='scroll_number_help')
     close_exploration: bool = Field(default=False, description='指定绘卷结束后，关闭探索任务')
     close_memoryscrolls: bool = Field(default=False, description='指定绘卷结束后，关闭绘卷任务')
