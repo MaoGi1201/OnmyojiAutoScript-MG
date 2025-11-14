@@ -34,8 +34,10 @@ class SixRealmsAssets:
 	I_BOSS_SKILL_UP = RuleImage(roi_front=(650,136,100,54), roi_back=(650,136,100,54), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_boss_skill_up.png")
 	# description 
 	I_BOSS_SHARE = RuleImage(roi_front=(1090,604,80,74), roi_back=(1074,587,100,100), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_boss_share.png")
-	# 结算的椒图 
-	I_BOSS_SHUTU = RuleImage(roi_front=(105,136,174,124), roi_back=(105,136,174,124), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_boss_shutu.png")
+	# 结算'极' 
+	I_BOSS_SHUTU_SUPER = RuleImage(roi_front=(105,136,174,124), roi_back=(105,136,174,124), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_boss_shutu_super.png")
+	# 结算'特' 
+	I_BOSS_SHUTU_SIMPLE = RuleImage(roi_front=(103,139,160,130), roi_back=(103,139,160,130), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_boss_shutu_simple.png")
 	# 再次挑战boss 
 	I_BOSS_BATTLE_AGAIN = RuleImage(roi_front=(432,402,178,64), roi_back=(409,390,212,100), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_boss_battle_again.png")
 	# 放弃挑战boss 

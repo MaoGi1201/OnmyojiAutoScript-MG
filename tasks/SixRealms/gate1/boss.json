@@ -72,13 +72,22 @@
     "description": "description"
   },
   {
-    "itemName": "boss_shutu",
-    "imageName": "gate1_boss_shutu.png",
+    "itemName": "boss_shutu_super",
+    "imageName": "gate1_boss_shutu_super.png",
     "roiFront": "105,136,174,124",
     "roiBack": "105,136,174,124",
     "method": "Template matching",
     "threshold": 0.8,
-    "description": "结算的椒图"
+    "description": "结算'极'"
+  },
+  {
+    "itemName": "boss_shutu_simple",
+    "imageName": "gate1_boss_shutu_simple.png",
+    "roiFront": "103,139,160,130",
+    "roiBack": "103,139,160,130",
+    "method": "Template matching",
+    "threshold": 0.8,
+    "description": "结算'特'"
   },
   {
     "itemName": "boss_battle_again",
