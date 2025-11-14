@@ -52,47 +52,47 @@ class ReplaceShikigamiAssets:
 	# description 
 	I_RS_NO_ADD = RuleImage(roi_front=(276,222,100,212), roi_back=(28,181,1232,293), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_no_add.png")
 	# 素材 
-	I_RS_MATERIAL = RuleImage(roi_front=(38,286,54,52), roi_back=(0,265,1072,454), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_material.png")
-	# description 
-	I_RS_N = RuleImage(roi_front=(129,298,47,49), roi_back=(0,265,1072,454), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_n.png")
-	# description 
-	I_RS_R = RuleImage(roi_front=(209,335,48,47), roi_back=(0,265,1072,454), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_r.png")
-	# description 
-	I_RS_SR = RuleImage(roi_front=(279,388,48,47), roi_back=(0,265,1072,454), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_sr.png")
-	# description 
-	I_RS_SSR = RuleImage(roi_front=(331,457,53,46), roi_back=(0,265,1072,454), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_ssr.png")
-	# description 
-	I_RS_SP = RuleImage(roi_front=(368,537,48,47), roi_back=(0,265,1072,454), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_sp.png")
-	# description 
-	I_RS_MATERIAL_SELECTED = RuleImage(roi_front=(27,620,68,65), roi_back=(27,620,68,65), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_material_selected.png")
-	# description 
-	I_RS_N_SELECTED = RuleImage(roi_front=(30,620,66,60), roi_back=(30,620,66,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_n_selected.png")
-	# description 
-	I_RS_R_SELECTED = RuleImage(roi_front=(26,617,72,60), roi_back=(26,617,72,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_r_selected.png")
-	# description 
-	I_RS_SR_SELECTED = RuleImage(roi_front=(32,623,59,55), roi_back=(32,623,59,55), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_sr_selected.png")
-	# description 
-	I_RS_SSR_SELECTED = RuleImage(roi_front=(29,622,66,59), roi_back=(29,622,66,59), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_ssr_selected.png")
-	# description 
-	I_RS_SP_SELECTED = RuleImage(roi_front=(31,622,62,59), roi_back=(31,622,62,59), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_sp_selected.png")
-	# 式神录按钮 
-	I_RS_RECORDS_SHIKI = RuleImage(roi_front=(1148,548,49,43), roi_back=(1145,548,55,90), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_records_shiki.png")
-	# 检测到已经满级了 
-	I_RS_LEVEL_MAX = RuleImage(roi_front=(487,248,23,21), roi_back=(52,238,1118,37), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_level_max.png")
-	# 智能放入 
-	I_RS_SMART_EXCHANGE = RuleImage(roi_front=(1150,507,40,44), roi_back=(1128,488,86,162), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_smart_exchange.png")
-	# description 
+	I_RS_MATERIAL = RuleImage(roi_front=(32,281,59,56), roi_back=(32,281,59,56), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_material.png")
+	# N 
+	I_RS_N = RuleImage(roi_front=(137,297,57,59), roi_back=(137,297,57,59), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_n.png")
+	# R 
+	I_RS_R = RuleImage(roi_front=(229,342,64,61), roi_back=(229,342,64,61), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_r.png")
+	# SR 
+	I_RS_SR = RuleImage(roi_front=(305,420,62,58), roi_back=(305,420,62,58), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_sr.png")
+	# SSR 
+	I_RS_SSR = RuleImage(roi_front=(352,517,663,58), roi_back=(352,517,663,58), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_ssr.png")
+	# SP 
+	I_RS_SP = RuleImage(roi_front=(372,619,58,60), roi_back=(372,619,58,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_sp.png")
+	# UR 
 	I_RS_UR = RuleImage(roi_front=(377,627,49,46), roi_back=(0,265,1072,454), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_ur.png")
-	# description 
+	# 选中素材 
+	I_RS_MATERIAL_SELECTED = RuleImage(roi_front=(27,620,68,65), roi_back=(27,620,68,65), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_material_selected.png")
+	# 选中N 
+	I_RS_N_SELECTED = RuleImage(roi_front=(29,617,66,60), roi_back=(29,617,66,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_n_selected.png")
+	# 选中R 
+	I_RS_R_SELECTED = RuleImage(roi_front=(26,617,72,60), roi_back=(26,617,72,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_r_selected.png")
+	# 选中SR 
+	I_RS_SR_SELECTED = RuleImage(roi_front=(32,623,59,55), roi_back=(32,623,59,55), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_sr_selected.png")
+	# 选中SSR 
+	I_RS_SSR_SELECTED = RuleImage(roi_front=(29,622,66,59), roi_back=(29,622,66,59), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_ssr_selected.png")
+	# 选中SP 
+	I_RS_SP_SELECTED = RuleImage(roi_front=(31,622,62,59), roi_back=(31,622,62,59), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_sp_selected.png")
+	# 选中UR 
 	I_RS_UR_SELECTED = RuleImage(roi_front=(36,620,54,58), roi_back=(14,601,100,100), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_ur_selected.png")
+	# 式神录 
+	I_RS_RECORDS_SHIKI = RuleImage(roi_front=(1146,589,49,43), roi_back=(1146,589,49,43), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_records_shiki.png")
+	# 检测到已经满级了 
+	I_RS_LEVEL_MAX = RuleImage(roi_front=(487,239,42,24), roi_back=(45,239,1118,37), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_level_max.png")
+	# 智能放入 
+	I_RS_SMART_EXCHANGE = RuleImage(roi_front=(1143,501,50,48), roi_back=(1128,488,86,162), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_rs_smart_exchange.png")
 
 
 	# Image Rule Assets
 	# 小一个尺寸的 确认按钮 
-	I_U_CONFIRM_SMALL = RuleImage(roi_front=(672,513,131,60), roi_back=(672,513,131,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/utilize_u_confirm_small.png")
+	I_U_CONFIRM_SMALL = RuleImage(roi_front=(670,514,130,60), roi_back=(670,514,130,60), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/utilize_u_confirm_small.png")
 	# 候补式神确认 
-	I_U_CONFIRM_ALTERNATE = RuleImage(roi_front=(692,407,134,47), roi_back=(692,407,134,47), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_u_confirm_alternate.png")
+	I_U_CONFIRM_ALTERNATE = RuleImage(roi_front=(668,399,176,62), roi_back=(668,399,176,62), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_u_confirm_alternate.png")
 	# 候补式神圆圈 
-	I_U_CIRCLE_ALTERNATE = RuleImage(roi_front=(535,339,41,43), roi_back=(535,339,41,43), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_u_circle_alternate.png")
+	I_U_CIRCLE_ALTERNATE = RuleImage(roi_front=(535,338,41,43), roi_back=(535,338,41,43), threshold=0.8, method="Template matching", file="./tasks/Component/ReplaceShikigami/rs/rs_u_circle_alternate.png")
 
 
