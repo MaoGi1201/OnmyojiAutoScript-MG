@@ -29,8 +29,8 @@
   {
     "itemName": "mshouzu",
     "imageName": "gate1_mshouzu.png",
-    "roiFront": "42,607,73,67",
-    "roiBack": "42,607,73,67",
+    "roiFront": "43,608,73,67",
+    "roiBack": "43,608,73,67",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "椒图"

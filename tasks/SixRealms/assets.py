@@ -73,7 +73,7 @@ class SixRealmsAssets:
 	# 椒图选中 
 	I_MSHOUZU_SELECT = RuleImage(roi_front=(544,179,199,438), roi_back=(544,179,199,438), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_mshouzu_select.png")
 	# 椒图 
-	I_MSHOUZU = RuleImage(roi_front=(42,607,73,67), roi_back=(42,607,73,67), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_mshouzu.png")
+	I_MSHOUZU = RuleImage(roi_front=(43,608,73,67), roi_back=(43,608,73,67), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_mshouzu.png")
 	# 开启 
 	I_MSTART = RuleImage(roi_front=(1136,575,100,100), roi_back=(1043,527,215,167), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_mstart.png")
 	# description 
