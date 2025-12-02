@@ -45,7 +45,7 @@ class SwitchSoulAssets:
 	# description 
 	I_SOU_SWITCH_SURE = RuleImage(roi_front=(668,400,178,60), roi_back=(668,400,178,60), threshold=0.8, method="Template matching", file="./tasks/Component/SwitchSoul/ss/ss_sou_switch_sure.png")
 	# 用于判断是否在式神录里面 
-	I_SOU_CHECK_IN = RuleImage(roi_front=(269,69,50,49), roi_back=(269,69,50,49), threshold=0.8, method="Template matching", file="./tasks/Component/SwitchSoul/ss/ss_sou_check_in.png")
+	I_SOU_CHECK_IN = RuleImage(roi_front=(265,69,50,49), roi_back=(265,69,50,49), threshold=0.8, method="Template matching", file="./tasks/Component/SwitchSoul/ss/ss_sou_check_in.png")
 	# description 
 	I_SOU_CHECK_GROUP_1 = RuleImage(roi_front=(1086,91,22,57), roi_back=(1086,91,22,57), threshold=0.9, method="Template matching", file="./tasks/Component/SwitchSoul/ss/ss_sou_check_group_1.png")
 	# description 

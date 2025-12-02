@@ -74,8 +74,8 @@
   {
     "itemName": "sou_check_in_1",
     "imageName": "sk1_sou_check_in_1.png",
-    "roiFront": "269,69,50,49",
-    "roiBack": "269,69,50,49",
+    "roiFront": "265,69,50,49",
+    "roiBack": "265,69,50,49",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "用于判断是否在式神录里面"

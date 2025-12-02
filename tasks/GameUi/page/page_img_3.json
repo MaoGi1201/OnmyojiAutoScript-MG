@@ -74,8 +74,8 @@
   {
     "itemName": "check_records",
     "imageName": "page_check_records.png",
-    "roiFront": "269,71,55,50",
-    "roiBack": "269,71,55,50",
+    "roiFront": "265,71,55,50",
+    "roiBack": "265,71,55,50",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "description"
