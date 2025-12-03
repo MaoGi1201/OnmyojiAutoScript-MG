@@ -355,8 +355,8 @@ if __name__ == "__main__":
     #print(jade.roi_front)
     #print(jade.roi_back)
 
-    from tasks.Component.SwitchSoul.assets import SwitchSoulAssets
-    jade = SwitchSoulAssets.I_SOU_CHECK_IN
+    from tasks.Component.ReplaceShikigami.assets import ReplaceShikigamiAssets
+    jade = ReplaceShikigamiAssets.I_RS_SMART_EXCHANGE
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)

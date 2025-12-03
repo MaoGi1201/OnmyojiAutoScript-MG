@@ -11,8 +11,8 @@
   {
     "itemName": "rs_material",
     "imageName": "rs_rs_material.png",
-    "roiFront": "32,281,59,56",
-    "roiBack": "32,281,59,56",
+    "roiFront": "32,284,54,52",
+    "roiBack": "0,265,1072,454",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "素材"
@@ -20,8 +20,8 @@
   {
     "itemName": "rs_n",
     "imageName": "rs_rs_n.png",
-    "roiFront": "137,297,57,59",
-    "roiBack": "137,297,57,59",
+    "roiFront": "127,296,47,49",
+    "roiBack": "127,296,47,49",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "N"
@@ -29,8 +29,8 @@
   {
     "itemName": "rs_r",
     "imageName": "rs_rs_r.png",
-    "roiFront": "229,342,64,61",
-    "roiBack": "229,342,64,61",
+    "roiFront": "207,333,48,47",
+    "roiBack": "207,333,48,47",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "R"
@@ -38,8 +38,8 @@
   {
     "itemName": "rs_sr",
     "imageName": "rs_rs_sr.png",
-    "roiFront": "305,420,62,58",
-    "roiBack": "305,420,62,58",
+    "roiFront": "277,387,48,47",
+    "roiBack": "277,387,48,47",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "SR"
@@ -47,8 +47,8 @@
   {
     "itemName": "rs_ssr",
     "imageName": "rs_rs_ssr.png",
-    "roiFront": "352,517,663,58",
-    "roiBack": "352,517,663,58",
+    "roiFront": "329,456,53,46",
+    "roiBack": "329,456,53,46",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "SSR"
@@ -56,8 +56,8 @@
   {
     "itemName": "rs_sp",
     "imageName": "rs_rs_sp.png",
-    "roiFront": "372,619,58,60",
-    "roiBack": "372,619,58,60",
+    "roiFront": "368,535,48,47",
+    "roiBack": "368,535,48,47",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "SP"
@@ -65,7 +65,7 @@
   {
     "itemName": "rs_ur",
     "imageName": "rs_rs_ur.png",
-    "roiFront": "377,627,49,46",
+    "roiFront": "376,626,49,46",
     "roiBack": "0,265,1072,454",
     "method": "Template matching",
     "threshold": 0.8,

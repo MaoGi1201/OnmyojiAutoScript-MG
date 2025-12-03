@@ -29,7 +29,7 @@
   {
     "itemName": "main_goto_daily",
     "imageName": "page_main_goto_daily.png",
-    "roiFront": "779,612,52,68",
+    "roiFront": "776,618,54,60",
     "roiBack": "754,595,89,97",
     "method": "Template matching",
     "threshold": 0.7,
@@ -47,8 +47,8 @@
   {
     "itemName": "main_goto_guild",
     "imageName": "page_main_goto_guild.png",
-    "roiFront": "540,613,52,54",
-    "roiBack": "540,613,52,54",
+    "roiFront": "539,610,50,54",
+    "roiBack": "539,610,50,54",
     "method": "Template matching",
     "threshold": 0.7,
     "description": "庭院前往阴阳寮"
