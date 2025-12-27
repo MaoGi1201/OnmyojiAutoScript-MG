@@ -74,7 +74,7 @@
   {
     "itemName": "goto_2",
     "imageName": "wq_goto_2.png",
-    "roiFront": "79,386,88,44",
+    "roiFront": "979,386,88,44",
     "roiBack": "979,386,88,44",
     "method": "Template matching",
     "threshold": 0.8,

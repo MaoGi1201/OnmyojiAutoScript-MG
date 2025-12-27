@@ -105,7 +105,7 @@ class SixRealmsAssets:
 	# 暂时离开六道之门 
 	I_EXIT_SIXREALMS = RuleImage(roi_front=(509,305,100,100), roi_back=(509,305,100,100), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_exit_sixrealms.png")
 	# 选择一个式神加入征伐队伍 
-	I_SELECT_SHIKIGAMI_AND_CONFIRM = RuleImage(roi_front=(501,239,160,62), roi_back=(479,213,199,113), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_select_shikigami_and_confirm.png")
+	I_SELECT_SHIKIGAMI_AND_CONFIRM = RuleImage(roi_front=(499,238,151,57), roi_back=(479,213,199,113), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_select_shikigami_and_confirm.png")
 
 
 	# Ocr Rule Assets
