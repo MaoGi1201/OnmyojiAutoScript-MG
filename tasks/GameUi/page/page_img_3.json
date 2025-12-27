@@ -47,8 +47,8 @@
   {
     "itemName": "main_goto_guild",
     "imageName": "page_main_goto_guild.png",
-    "roiFront": "539,610,50,54",
-    "roiBack": "539,610,50,54",
+    "roiFront": "543,610,50,47",
+    "roiBack": "543,610,50,47",
     "method": "Template matching",
     "threshold": 0.7,
     "description": "庭院前往阴阳寮"
