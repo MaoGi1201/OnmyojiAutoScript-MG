@@ -37,7 +37,7 @@ class ScriptTask(KU, KekkaiActivationAssets):
         # self.check_guild_ap_or_assets()
 
         # 进入寮结界
-        self.goto_realm()
+        # self.goto_realm()
 
         if con.exchange_before:
             self.check_max_lv(con.shikigami_class)
