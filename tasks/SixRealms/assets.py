@@ -41,7 +41,7 @@ class SixRealmsAssets:
 	# 再次挑战boss 
 	I_BOSS_BATTLE_AGAIN = RuleImage(roi_front=(432,402,178,64), roi_back=(409,390,212,100), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_boss_battle_again.png")
 	# 放弃挑战boss 
-	I_BOSS_BATTLE_GIVEUP = RuleImage(roi_front=(668,400,178,66), roi_back=(649,381,219,100), threshold=0.8, method="Template matching", file="./tasks/SixRealms/gate1/gate1_boss_battle_giveup.png")
+	I_BOSS_BATTLE_GIVEUP = RuleImage(roi_front=(668,400,178,66), roi_back=(649,381,219,100), threshold=0.9, method="Template matching", file="./tasks/SixRealms/gate1/gate1_boss_battle_giveup.png")
 
 
 	# Click Rule Assets

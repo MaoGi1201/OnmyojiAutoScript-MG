@@ -356,7 +356,7 @@ if __name__ == "__main__":
     #print(jade.roi_back)
 
     from tasks.SixRealms.assets import SixRealmsAssets
-    jade = SixRealmsAssets.I_SELECT_SHIKIGAMI_AND_CONFIRM
+    jade = SixRealmsAssets.I_BOSS_BATTLE_GIVEUP
     jade.method = 'Template matching'
     detect_image(IMAGE_FILE, jade)
     print(jade.roi_front)
