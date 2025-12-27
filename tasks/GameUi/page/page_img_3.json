@@ -126,15 +126,6 @@
     "description": "检查是否在阴阳寮界面"
   },
   {
-    "itemName": "check_realm_shin",
-    "imageName": "page_realm_shin.png",
-    "roiFront": "175,460,54,58",
-    "roiBack": "22,380,393,308",
-    "method": "Template matching",
-    "threshold": 0.8,
-    "description": "结界界面"
-  },
-  {
     "itemName": "check_team",
     "imageName": "page_check_team.png",
     "roiFront": "9,564,120,110",

@@ -165,8 +165,6 @@ class GameUiAssets:
 	I_CHECK_MALL = RuleImage(roi_front=(147,526,82,82), roi_back=(147,526,82,82), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_mall.png")
 	# 检查是否在阴阳寮界面 
 	I_CHECK_GUILD = RuleImage(roi_front=(1071,629,49,46), roi_back=(1071,629,49,46), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_guild.png")
-	# 结界界面 
-	I_CHECK_REALM_SHIN = RuleImage(roi_front=(175,460,54,58), roi_back=(22,380,393,308), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_realm_shin.png")
 	# 检查是否在组队界面 
 	I_CHECK_TEAM = RuleImage(roi_front=(9,564,120,110), roi_back=(9,564,120,110), threshold=0.8, method="Template matching", file="./tasks/GameUi/page/page_check_team.png")
 	# 检查是否在图鉴 
