@@ -22,7 +22,7 @@ from tasks.KekkaiActivation.assets import KekkaiActivationAssets
 from tasks.KekkaiActivation.utils import parse_rule
 from tasks.KekkaiActivation.config import ActivationConfig
 from tasks.Utils.config_enum import ShikigamiClass
-from tasks.GameUi.page import page_main, page_guild
+from tasks.GameUi.page import page_main, page_guild, page_realm
 from tasks.KekkaiActivation.config import CardType
 
 """ 结界挂卡 """
@@ -31,7 +31,7 @@ class ScriptTask(KU, KekkaiActivationAssets):
     def run(self):
         con = self.config.kekkai_activation.activation_config
         self.ui_get_current_page()
-        self.ui_goto(page_guild)
+        self.ui_goto(page_realm)
 
         # 在寮的主界面 检查是否有收取体力或者是收取寮资金
         # self.check_guild_ap_or_assets()
