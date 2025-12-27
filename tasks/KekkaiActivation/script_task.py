@@ -22,7 +22,7 @@ from tasks.KekkaiActivation.assets import KekkaiActivationAssets
 from tasks.KekkaiActivation.utils import parse_rule
 from tasks.KekkaiActivation.config import ActivationConfig
 from tasks.Utils.config_enum import ShikigamiClass
-from tasks.GameUi.page import page_main, page_guild,page_realm
+from tasks.GameUi.page import page_main, page_guild
 from tasks.KekkaiActivation.config import CardType
 
 """ 结界挂卡 """
@@ -31,13 +31,13 @@ class ScriptTask(KU, KekkaiActivationAssets):
     def run(self):
         con = self.config.kekkai_activation.activation_config
         self.ui_get_current_page()
-        self.ui_goto(page_realm)
+        self.ui_goto(page_guild)
 
         # 在寮的主界面 检查是否有收取体力或者是收取寮资金
         # self.check_guild_ap_or_assets()
 
         # 进入寮结界
-        # self.goto_realm()
+        self.goto_realm()
 
         if con.exchange_before:
             self.check_max_lv(con.shikigami_class)
@@ -273,7 +273,7 @@ class ScriptTask(KU, KekkaiActivationAssets):
             check_card = "勾玉"
         elif rule == CardType.FISH:
             min_card_num = self.config.kekkai_activation.activation_config.min_fish_num
-            check_card = "夕"
+            check_card = "体力"
         else:
             logger.error('Unknown utilize rule')
             raise ValueError('Unknown utilize rule')
@@ -413,10 +413,9 @@ if __name__ == "__main__":
     from module.device.device import Device
     import cv2
 
-    c = Config('YZJ-JP')
+    c = Config('oas1')
     d = Device(c)
-    t = ScriptTask(c, d)
-    t.screenshot()
 
+    t = ScriptTask(c, d)
     t.run()
     # t.run_activation(t.config.kekkai_activation.activation_config)
