@@ -17,7 +17,7 @@ from tasks.KekkaiUtilize.assets import KekkaiUtilizeAssets
 from tasks.KekkaiUtilize.config import UtilizeRule, SelectFriendList
 from tasks.KekkaiUtilize.utils import CardClass, target_to_card_class
 from tasks.Component.ReplaceShikigami.replace_shikigami import ReplaceShikigami
-from tasks.GameUi.page import page_main, page_guild, page_realm
+from tasks.GameUi.page import page_main, page_guild
 from module.base.utils import point2str
 import random
 
@@ -34,10 +34,11 @@ class ScriptTask(GameUi, ReplaceShikigami, KekkaiUtilizeAssets):
     def run(self):
         con = self.config.kekkai_utilize.utilize_config
         self.ui_get_current_page()
-        self.ui_goto(page_realm)
+        self.ui_goto(page_guild)
+
 
         # 进入寮结界
-        # self.goto_realm()
+        self.goto_realm()
         # 育成界面去蹭卡
         if con.utilize_enable:
             self.check_utilize_add()
@@ -97,10 +98,13 @@ class ScriptTask(GameUi, ReplaceShikigami, KekkaiUtilizeAssets):
             if not self.grown_goto_utilize():
                 logger.info('Utilize failed, exit')
             # 开始执行寄养
-            self.run_utilize(con.select_friend_list, con.shikigami_class, con.shikigami_order)
-            # 进入寮结界
-            self.ui_get_current_page()
-            self.ui_goto(page_realm)
+            if self.run_utilize(con.select_friend_list, con.shikigami_class, con.shikigami_order):
+                # 退出寮结界
+                self.back_guild()
+                # 进入寮结界
+                self.goto_realm()
+            else:
+                self.back_realm()
 
     def check_max_lv(self, shikigami_class: ShikigamiClass = ShikigamiClass.N):
         """
@@ -183,7 +187,7 @@ class ScriptTask(GameUi, ReplaceShikigami, KekkaiUtilizeAssets):
                     click_ap = True
                     timer_check.reset()
                 continue
-    '''
+
     def goto_realm(self):
         """
         从寮的主界面进入寮结界
@@ -199,7 +203,7 @@ class ScriptTask(GameUi, ReplaceShikigami, KekkaiUtilizeAssets):
                 continue
             if self.appear_then_click(self.I_GUILD_REALM, interval=1):
                 continue
-    '''
+
     def check_box_ap_or_exp(self, ap_enable: bool = True, exp_enable: bool = True, exp_waste: bool = True) -> bool:
         """
         顺路检查盒子
@@ -703,7 +707,7 @@ class ScriptTask(GameUi, ReplaceShikigami, KekkaiUtilizeAssets):
 
         # logger.info(f'识别成功: 卡类型: {card_type}, 数值: {value}')
         return card_type, value
-    '''
+
     def back_guild(self):
         """
         回到寮的界面
@@ -736,13 +740,13 @@ class ScriptTask(GameUi, ReplaceShikigami, KekkaiUtilizeAssets):
                 continue
             if self.appear_then_click(self.I_UI_BACK_BLUE, interval=1):
                 continue
-    '''
+
 
 if __name__ == "__main__":
     from module.config.config import Config
     from module.device.device import Device
 
-    c = Config('YZJ-JP')
+    c = Config('CDB-JP')
     d = Device(c)
     t = ScriptTask(c, d)
     t.screenshot()
