@@ -30,7 +30,7 @@ class RealmRaidAssets:
 	# 没有锁的状态图标 
 	I_UNLOCK = RuleImage(roi_front=(815,578,38,42), roi_back=(815,578,38,42), threshold=0.8, method="Template matching", file="./tasks/RealmRaid/res/res_unlock.png")
 	# 以锁的状态图片 
-	I_LOCK = RuleImage(roi_front=(818,579,36,40), roi_back=(818,579,36,40), threshold=0.8, method="Template matching", file="./tasks/RealmRaid/res/res_lock.png")
+	I_LOCK = RuleImage(roi_front=(815,580,36,40), roi_back=(815,580,36,40), threshold=0.8, method="Template matching", file="./tasks/RealmRaid/res/res_lock.png")
 	# 刷新按钮 
 	I_FRESH = RuleImage(roi_front=(960,567,178,64), roi_back=(960,567,178,64), threshold=0.8, method="Template matching", file="./tasks/RealmRaid/res/res_fresh.png")
 	# 点击的式神录 

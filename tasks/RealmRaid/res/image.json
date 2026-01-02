@@ -83,8 +83,8 @@
   {
     "itemName": "lock",
     "imageName": "res_lock.png",
-    "roiFront": "818,579,36,40",
-    "roiBack": "818,579,36,40",
+    "roiFront": "815,580,36,40",
+    "roiBack": "815,580,36,40",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "以锁的状态图片"
@@ -145,7 +145,7 @@
   },
   {
     "itemName": "lock_2",
-    "imageName": "res_lock_2.png",
+    "imageName": "res_lock_2.png"
     "roiFront": "998,643,34,38",
     "roiBack": "998,643,34,38",
     "method": "Template matching",
