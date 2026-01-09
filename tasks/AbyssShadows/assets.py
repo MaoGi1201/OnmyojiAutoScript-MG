@@ -83,7 +83,7 @@ class AbyssShadowsAssets:
 	# 白藏主领域 
 	I_FOX_AREA = RuleImage(roi_front=(581,19,121,29), roi_back=(581,19,121,29), threshold=0.7, method="Template matching", file="./tasks/AbyssShadows/res/res_fox_area.png")
 	# 更换领域 
-	I_CHANGE_AREA = RuleImage(roi_front=(508,24,27,27), roi_back=(508,24,27,27), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_change_area.png")
+	I_CHANGE_AREA = RuleImage(roi_front=(510,20,27,27), roi_back=(510,20,27,27), threshold=0.8, method="Template matching", file="./tasks/AbyssShadows/res/res_change_area.png")
 	# 神龙领域 
 	I_DRAGON_AREA = RuleImage(roi_front=(582,14,112,34), roi_back=(582,14,112,34), threshold=0.7, method="Template matching", file="./tasks/AbyssShadows/res/res_dragon_area.png")
 	# 集结中 
