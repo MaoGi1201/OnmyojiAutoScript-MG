@@ -145,7 +145,7 @@
   },
   {
     "itemName": "lock_2",
-    "imageName": "res_lock_2.png"
+    "imageName": "res_lock_2.png",
     "roiFront": "998,643,34,38",
     "roiBack": "998,643,34,38",
     "method": "Template matching",
