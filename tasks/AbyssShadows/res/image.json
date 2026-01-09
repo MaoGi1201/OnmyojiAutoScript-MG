@@ -173,8 +173,8 @@
   {
     "itemName": "change_area",
     "imageName": "res_change_area.png",
-    "roiFront": "508,24,27,27",
-    "roiBack": "508,24,27,27",
+    "roiFront": "510,20,27,27",
+    "roiBack": "510,20,27,27",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "更换领域"
