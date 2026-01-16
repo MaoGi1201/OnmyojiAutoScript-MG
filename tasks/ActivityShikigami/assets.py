@@ -83,7 +83,7 @@ class ActivityShikigamiAssets:
 	# 击败魇兽将直接前往下一层 
 	I_PASS12 = RuleImage(roi_front=(870,356,100,50), roi_back=(104,169,1109,425), threshold=0.8, method="Template matching", file="./tasks/ActivityShikigami/fire/fire_pass12.png")
 	# 魇兽将的战斗图片 
-	I_PASS_13 = RuleImage(roi_front=(1018,570,100,100), roi_back=(984,538,169,152), threshold=0.8, method="Template matching", file="./tasks/ActivityShikigami/fire/fire_pass_13.png")
+	I_PASS_13 = RuleImage(roi_front=(1132,564,100,100), roi_back=(1132,564,100,100), threshold=0.8, method="Template matching", file="./tasks/ActivityShikigami/fire/fire_pass_13.png")
 
 
 	# Ocr Rule Assets
