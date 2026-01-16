@@ -32,7 +32,7 @@ class ScriptTest:
 
 
 if __name__ == '__main__':
-    test = ScriptTest(config='oas1')
+    test = ScriptTest(config='YZJ-JP')
     assert test.task.test_battle_main()
 
 
