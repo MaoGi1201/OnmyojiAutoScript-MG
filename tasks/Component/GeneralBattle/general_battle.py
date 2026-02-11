@@ -54,6 +54,7 @@ class GeneralBattle(GeneralBuff, GeneralBattleAssets):
         """
         timeout_timer = Timer(timeout).start()
         confed = False
+        clicked_prepare = False  # 新增：记录是否已经点击过准备按钮
         while not timeout_timer.reached():
             self.screenshot()
             if self.is_in_real_battle(False):  # 战斗阶段
@@ -68,8 +69,24 @@ class GeneralBattle(GeneralBuff, GeneralBattleAssets):
                         self.switch_preset_team(config.preset_enable, config.preset_group, config.preset_team)
                         self.check_and_open_buff(buff)
                         confed = True
-                # 点击准备(锁定阵容自动点准备,不锁定阵容前面也已经配置完毕需要点准备)
-                if self.appear_then_click(self.I_PREPARE_HIGHLIGHT, interval=0.8):
+                # 点击准备按钮
+                if self.appear_then_click(self.I_PREPARE_HIGHLIGHT, interval=1):
+                    clicked_prepare = True  # 标记已点击
+                    # 等待界面稳定，但不要太长以免错过战斗判断
+                    sleep(random.uniform(0.8, 1.2))  # 增加适当等待
+                    # 点击后立即重新截图判断
+                    self.screenshot()
+                    # 如果点击后已经进入战斗，直接返回
+                    if self.is_in_real_battle(False):
+                        return True
+                    continue
+
+                # 如果已经点击过准备按钮但还在准备界面，可能是网络延迟
+                 # 增加一个额外的等待和重试机制
+                if clicked_prepare:
+                    logger.info('Already clicked prepare, waiting for battle...')
+                     # 短暂等待后重新尝试点击
+                    sleep(0.5)
                     continue
                 continue
             # 未知界面, 既不是准备界面也不是战斗界面

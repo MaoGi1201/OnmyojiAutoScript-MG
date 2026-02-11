@@ -69,8 +69,6 @@ class GeneralBattleAssets:
 	# Image Rule Assets
 	# 奖励，就是那个魂 
 	I_REWARD = RuleImage(roi_front=(547,518,172,96), roi_back=(547,518,172,96), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_reward.png")
-	# 活动掉落 
-	I_ACTIVITY_ITEMS = RuleImage(roi_front=(609,252,62,58), roi_back=(609,252,62,58), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_activity_items.png")
 	# 预设的小图标 
 	I_PRESET = RuleImage(roi_front=(37,660,46,46), roi_back=(37,660,46,46), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_preset.png")
 	# 准备 
@@ -78,7 +76,7 @@ class GeneralBattleAssets:
 	# 战斗胜利 
 	I_WIN = RuleImage(roi_front=(385,47,100,100), roi_back=(296,33,414,224), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_win.png")
 	# 准备但是界面还未加载这个时候是黑色的 
-	I_PREPARE_DARK = RuleImage(roi_front=(1131,538,100,100), roi_back=(1131,538,100,100), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_prepare_dark.png")
+	I_PREPARE_DARK = RuleImage(roi_front=(1126,538,100,100), roi_back=(1126,538,100,100), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_prepare_dark.png")
 	# 失败 
 	I_FALSE = RuleImage(roi_front=(413,124,100,100), roi_back=(413,124,100,100), threshold=0.8, method="Template matching", file="./tasks/Component/GeneralBattle/gb/gb_false.png")
 	# 确认预设的队伍 
