@@ -1,11 +1,11 @@
 [
   {
     "itemName": "fire",
-    "roiFront": "1137,599,83,44",
+    "roiFront": "1132,597,100,55",
     "roiBack": "1129,570,100,100",
     "mode": "Single",
     "method": "Default",
-    "keyword": "挑战",
+    "keyword": "挑聘",
     "description": "挑战"
   },
   {

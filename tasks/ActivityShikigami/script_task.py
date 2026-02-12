@@ -197,7 +197,7 @@ class ScriptTask(StateMachine, GameUi, BaseActivity, SwitchSoul, ActivityShikiga
             if not ocr_limit_timer.reached():
                 continue
             ocr_limit_timer.reset()
-            if not self.appear_then_click(self.I_PASS_13):
+            if not self.ocr_appear(self.O_FIRE):
                 continue
             #  --------------------------------------------------------------
             self.lock_team(self.conf.general_battle)
@@ -228,7 +228,7 @@ class ScriptTask(StateMachine, GameUi, BaseActivity, SwitchSoul, ActivityShikiga
             if not ocr_limit_timer.reached():
                 continue
             ocr_limit_timer.reset()
-            if not self.appear(self.I_PASS_13):
+            if not self.ocr_appear(self.O_FIRE):
                 self.appear_then_click(self.I_CHECK_BATTLE_MAIN, interval=4)
                 continue
             #  --------------------------------------------------------------
@@ -261,7 +261,7 @@ class ScriptTask(StateMachine, GameUi, BaseActivity, SwitchSoul, ActivityShikiga
             if (self.appear_then_click(self.I_UI_CONFIRM_SAMLL, interval=1) or
                     self.appear_then_click(self.I_UI_CONFIRM, interval=1) ):
                 continue
-            if self.appear_then_click(self.I_PASS_13, interval=2):
+            if self.ocr_appear_click(self.O_FIRE, interval=2):
                 click_times += 1
                 logger.info(f'Try click fire, remain times[{max_times - click_times}]')
                 continue
@@ -284,7 +284,7 @@ class ScriptTask(StateMachine, GameUi, BaseActivity, SwitchSoul, ActivityShikiga
             if ok_cnt > max_retry:
                 break
             # 识别到挑战说明已经退出战斗
-            if ok_cnt > 0 and self.appear_then_click(self.I_PASS_13):
+            if ok_cnt > 0 and self.ocr_appear(self.O_FIRE):
                 return True
             # 战斗失败
             if self.appear(self.I_FALSE):
@@ -361,7 +361,7 @@ class ScriptTask(StateMachine, GameUi, BaseActivity, SwitchSoul, ActivityShikiga
         :return: True 可以运行 or False
         """
         logger.hr(f'Check {self.climb_type} tickets')
-        if not self.wait_until_appear(self.I_PASS_13, wait_time=3):
+        if not self.wait_until_appear(self.O_FIRE, wait_time=3):
             logger.warning(f'Detect fire fail, try reidentify')
             return False
         self.screenshot()
@@ -413,7 +413,7 @@ if __name__ == '__main__':
     from module.config.config import Config
     from module.device.device import Device
 
-    c = Config('YZJ-JP')
+    c = Config('CDB-JP')
     d = Device(c)
     t = ScriptTask(c, d)
 

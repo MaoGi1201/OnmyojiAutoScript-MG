@@ -38,8 +38,8 @@
   {
     "itemName": "to_battle_main",
     "imageName": "as_to_battle_main.png",
-    "roiFront": "478,340,39,176",
-    "roiBack": "449,297,100,241",
+    "roiFront": "476,306,40,236",
+    "roiBack": "476,306,40,236",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "进入主要的战斗界面"

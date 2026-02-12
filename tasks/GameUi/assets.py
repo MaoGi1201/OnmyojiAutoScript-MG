@@ -146,7 +146,7 @@ class GameUiAssets:
 	# 庭院前往花合战 
 	I_MAIN_GOTO_DAILY = RuleImage(roi_front=(776,618,54,60), roi_back=(754,595,89,97), threshold=0.7, method="Template matching", file="./tasks/GameUi/page/page_main_goto_daily.png")
 	# 庭院前往商店 
-	I_MAIN_GOTO_MALL = RuleImage(roi_front=(662,657,40,22), roi_back=(644,613,81,78), threshold=0.7, method="Template matching", file="./tasks/GameUi/page/page_main_goto_mall.png")
+	I_MAIN_GOTO_MALL = RuleImage(roi_front=(658,636,40,30), roi_back=(658,636,40,30), threshold=0.7, method="Template matching", file="./tasks/GameUi/page/page_main_goto_mall.png")
 	# 庭院前往阴阳寮 
 	I_MAIN_GOTO_GUILD = RuleImage(roi_front=(543,610,50,47), roi_back=(543,610,50,47), threshold=0.7, method="Template matching", file="./tasks/GameUi/page/page_main_goto_guild.png")
 	# 庭院前往组队 
