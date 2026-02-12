@@ -107,6 +107,7 @@ class ScriptTask(GameUi, GeneralBattle, DemonEncounterAssets, SwitchSoul):
                             find_btn_clicked = True
                         continue
                 else:
+                    self.device.click_record_clear()  # 保持一致性
                     if self.appear(self.I_DE_BOSS) and (not find_btn_clicked):
                         self.device.click_record_remove(self.I_DE_BOSS)
                         if self.click(self.I_DE_BOSS, interval=4):

@@ -38,8 +38,8 @@
   {
     "itemName": "main_goto_mall",
     "imageName": "page_main_goto_mall.png",
-    "roiFront": "662,657,40,22",
-    "roiBack": "644,613,81,78",
+    "roiFront": "658,636,40,30",
+    "roiBack": "658,636,40,30",
     "method": "Template matching",
     "threshold": 0.7,
     "description": "庭院前往商店"
