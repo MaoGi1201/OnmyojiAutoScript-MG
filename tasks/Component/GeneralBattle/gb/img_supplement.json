@@ -20,7 +20,7 @@
   {
     "itemName": "confirm_close_diff_soul",
     "imageName": "gb_confirm_close_diff_soul.png",
-    "roiFront": "571,404,135,54",
+    "roiFront": "551,401,172,58",
     "roiBack": "517,374,226,112",
     "method": "Template matching",
     "threshold": 0.8,
@@ -29,8 +29,8 @@
   {
     "itemName": "disable_7days_diff_soul",
     "imageName": "gb_disable_7days_diff_soul.png",
-    "roiFront": "547,342,27,36",
-    "roiBack": "524,325,70,71",
+    "roiFront": "513,342,27,36",
+    "roiBack": "513,325,70,71",
     "method": "Template matching",
     "threshold": 0.8,
     "description": "禁用御魂不一致提示7天"
